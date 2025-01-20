@@ -5,6 +5,7 @@ description: "Grandmother's famous recipe, perfected over decades of Sunday baki
 prep_time: "15 minutes"
 cook_time: "12 minutes"
 servings: "24 cookies"
+category: Dessert
 ingredients: |
     - 2¼ cups all-purpose flour
     - 1 teaspoon baking soda

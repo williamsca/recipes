@@ -1,17 +1,21 @@
 ---
 layout: default
-title: The Recipes
+title: Home
 ---
 
-{% for recipe in site.recipes %}
-  <div class="recipe-card">
-    <h2><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></h2>
-    {% if recipe.description %}
-      <p>{{ recipe.description }}</p>
-    {% endif %}
-    <div class="recipe-metadata">
-      <span>Prep: {{ recipe.prep_time }}</span>
-      <span>Cook: {{ recipe.cook_time }}</span>
+<!-- Category Cards -->
+<div class="category-grid">
+  {% assign categories = site.recipes | map: "category" | uniq %}
+  {% for category in categories %}
+    {% assign category_slug = category | downcase | replace: " ", "-" %}
+    <div class="category-card">
+      {% if site.data.category_images[category] %}
+        <img src="{{ site.data.category_images[category] | relative_url }}" alt="{{ category }}">
+      {% endif %}
+      <h2>{{ category }}</h2>
+      <a href="{{ '/categories/' | append: category_slug | append: '.html' | relative_url }}" class="category-link">
+        View {{ category }} Recipes
+      </a>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h1>{{ page.category }} Recipes</h1>
+
+<table id="recipe-table" class="recipe-table">
+    <thead>
+        <tr>
+            <th>Recipe</th>
+            <th>Prep Time</th>
+            <th>Cook Time</th>
+            <th>Main Protein</th>
+            <th>Difficulty</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign category_recipes = site.recipes | where: "category", page.category %}
+        {% for recipe in category_recipes %}
+        <tr>
+            <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
+            <td>{{ recipe.prep_time }}</td>
+            <td>{{ recipe.cook_time }}</td>
+            <td>{{ recipe.protein }}</td>
+            <td>{{ recipe.difficulty }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+<script>
+    new Tablesort(document.getElementById('recipe-table'));
+</script>
