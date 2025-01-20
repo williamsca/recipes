@@ -1,0 +1,26 @@
+title: A Cookbook for Kaitlyn
+description: a collection of classic recipes from our family
+baseurl: "/recipes"
+url: "https://williamsca.github.io/recipes"
+
+# Build settings
+markdown: kramdown
+# remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
+
+# Default front matter for recipes
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"

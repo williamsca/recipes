@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="recipe">
+    <header class="recipe-header">
+        <h1>{{ page.title }}</h1>
+        <div class="recipe-metadata">
+            <span>Prep Time: {{ page.prep_time }}</span>
+            <span>Cook Time: {{ page.cook_time }}</span>
+            <span>Servings: {{ page.servings }}</span>
+        </div>
+    </header>
+
+    {% if page.description %}
+    <div class="recipe-description">
+        {{ page.description }}
+    </div>
+    {% endif %}
+
+    <div class="recipe-content">
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            {{ page.ingredients | markdownify }}
+        </section>
+
+        <section class="instructions">
+            <h2>Instructions</h2>
+            {{ page.instructions | markdownify }}
+        </section>
+
+        {% if page.notes %}
+        <section class="recipe-notes">
+            <h2>Notes</h2>
+            {{ page.notes | markdownify }}
+        </section>
+        {% endif %}
+    </div>
+</article>
