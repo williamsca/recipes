@@ -6,7 +6,7 @@ title: Williams Recipes
 <div class="category-grid">
   <a href="{{ '/categories/breakfast' | relative_url }}" class="category-card breakfast">
     <div class="category-icon">
-      ☕
+      🍳  
     </div>
     <h2>Breakfast</h2>
     <div class="category-description">
@@ -36,7 +36,7 @@ title: Williams Recipes
 
   <a href="{{ '/categories/fika' | relative_url }}" class="category-card fika">
     <div class="category-icon">
-      🇸🇪
+      ☕
     </div>
     <h2>Fika</h2>
     <div class="category-description">
