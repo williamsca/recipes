@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>{{ page.category }} Recipes</h1>
+<h2>{{ page.category }}</h2>
 
 <table id="recipe-table" class="recipe-table">
     <thead>
@@ -10,9 +10,9 @@ layout: default
             <th class="sort-header">Recipe</th>
             <th class="sort-header" data-sort-method="time">Prep Time</th>
             <th class="sort-header" data-sort-method="time">Cook Time</th>
-                {% if page.category == "Main" %}
-                <th class="sort-header">Protein</th>
-                {% endif %}
+            {% if page.category == "Main" %}
+            <th class="sort-header">Protein</th>
+            {% endif %}
         </tr>
     </thead>
     <tbody>
@@ -30,7 +30,6 @@ layout: default
     </tbody>
 </table>
 
-<!-- Include both the core library and the time sorting plugin -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.number.min.js"></script>
 
@@ -41,10 +40,22 @@ layout: default
         margin: 25px 0;
     }
 
-    .recipe-table th,
+    .recipe-table th {
+        padding: 12px 15px;
+        border-bottom: 2px solid var(--color-border);
+        text-align: left;
+    }
+
     .recipe-table td {
         padding: 12px 15px;
-        border: 1px solid #ddd;
+    }
+
+    .recipe-table tbody tr {
+        border-bottom: 1px solid var(--color-bg-secondary);
+    }
+
+    .recipe-table tbody tr:hover {
+        background-color: var(--color-bg-secondary);
     }
 
     .sort-header {
@@ -54,7 +65,7 @@ layout: default
     }
 
     .sort-header:hover {
-        background-color: #f5f5f5;
+        background-color: var(--color-bg-secondary);
     }
 
     .sort-header::after,
@@ -71,15 +82,14 @@ layout: default
 
     .sort-header::before {
         bottom: 13px;
-        border-bottom: 4px solid #404040;
+        border-bottom: 4px solid var(--color-text);
     }
 
     .sort-header::after {
         top: 13px;
-        border-top: 4px solid #404040;
+        border-top: 4px solid var(--color-text);
     }
 
-    /* Sort indicators */
     th.sort-header.sort-asc::before,
     th.sort-header[aria-sort="ascending"]::before {
         opacity: 1 !important;
@@ -90,7 +100,6 @@ layout: default
         opacity: 1 !important;
     }
 
-    /* Ensure the arrows stay visible when sorting */
     th.sort-header::before,
     th.sort-header::after {
         transition: opacity 0.2s ease;
@@ -98,6 +107,5 @@ layout: default
 </style>
 
 <script>
-    // Initialize tablesort
     new Tablesort(document.getElementById('recipe-table'));
 </script>
