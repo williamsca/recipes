@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Semla
-description: If the idea of baking Swedish pastries is daunting, or if you simply enjoy the delightful sound of the Swedish language, check out Roy Fares bakar sina bästa semlor. Swedes enjoy semla between Christmas and Easter, but particularly on Fettisdagen (Fat Tuesday) when a country of 10 million consumes 5 million of the pastry in a single day.
+description: If the idea of baking Swedish pastries is daunting, or if you simply enjoy the delightful sound of the Swedish language, check out Roy Fares [bakar sina bästa semlor](https://www.youtube.com/watch?v=9HCe9W_ZxXk). Swedes enjoy semla between Christmas and Easter, but particularly on Fettisdagen (Fat Tuesday) when a country of 10 million consumes 5 million of the pastry in a single day.
 prep_time: 2.5 hours
 cook_time: 8-10 minutes
 temperature: 410°F

@@ -1,9 +1,9 @@
 ---
 layout: recipe
 title: Lemon Bars
-description: While neither of us particularly crave lemon bars, these were easy to make and great to eat, as I hope you can tell from my expression above. On Renton's recommendation, we watched this demonstration on YouTube, but the chef was pretty obnoxious.
+description: While neither of us particularly crave lemon bars, these were easy to make and great to eat, as I hope you can tell from my expression above. On Renton's recommendation, we watched this demonstration on YouTube.
 prep_time: 20 minutes
-cook_time: 47 minutes # combined 22 + 25 minutes
+cook_time: 25 minutes
 temperature: 350°F
 servings: 16
 category: Dessert
@@ -34,5 +34,5 @@ instructions: |
   7. Dip knife into very hot water, run around the edge, and cut into 16 squares. Dust cookies with 1 teaspoon confectioners' sugar.
 
 notes: |
-  - Kaitlyn is able to zest a lemon with nothing but a plastic knife. Ah, college.
+  - Kaitlyn was able to zest a lemon with nothing but a plastic knife. Oh, college.
 ---

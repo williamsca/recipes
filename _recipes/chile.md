@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Chili
-description: "In the immortal words of Kaitlyn, sleeping after a night shift: 'Chili's in the crockpot, ready to simmer for 8 hours. Girl's in the cozy bed, ready to simmer for 6 hours.'"
+description: "In the words of Kaitlyn, sleeping after a night shift: 'Chili's in the crockpot, ready to simmer for 8 hours. Girl's in the cozy bed, ready to simmer for 6 hours.'"
 prep_time: 20 minutes
 cook_time: 8 hours
 servings: 8

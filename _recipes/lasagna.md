@@ -47,7 +47,4 @@ instructions: |
      - remaining cheese mix
      - 1 cup mozzarella
      - remaining noodles, meat sauce, mozzarella
-
-notes: |
-  - This recipe takes a while, so consider splitting a bottle of Sauvignon Blanc while cooking to keep your mind off how hungry you are.
 ---

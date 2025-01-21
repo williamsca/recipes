@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Cheese Danish
-description: Kaitlyn rated these danishes as "the best thing we've made so far." They were so good that we decided not to share any with my suitemates, and though we spent multiple days making the dough, they were completely worth it. Top danishes with a few raspberries, blueberries or even a dollop of your favorite jam just before baking, if you like.
+description: Kaitlyn rated these danishes as "the best thing we've made so far." They were so good that we ate two each, felt sick, and immediately decided not to share any with my suitemates.
 prep_time: 1.5 hours
 cook_time: 16-18 minutes # combined 10 + 6-8 minutes
 temperature: 425°F # starts at 425°F, reduces to 375°F

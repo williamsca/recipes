@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Swedish Meatballs
-description: In my first year of college, I attended a "Meet-ball" with some friends. We ate Italian food and met precisely no-one. Our own meetball was quite a hit, and much more worthy of the name. Jack told some great stories about his landlady, Mari invited herself to my office Christmas party, and everyone greatly enjoyed the dinner of mashed potatoes, roasted broccoli, lingonberry jam, and of course, meatballs.
+description: In my first year of college, I attended a "Meet-ball" with some friends. We ate Italian food and met precisely no-one. Our own meetball was more worthy of the name. Jack told some great stories about his landlady, Mari invited herself to my office Christmas party, and everyone greatly enjoyed the dinner of mashed potatoes, roasted broccoli, lingonberry jam, and of course, meatballs.
 prep_time: 45 minutes
 cook_time: 25 minutes
 temperature: 165°F
