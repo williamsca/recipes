@@ -3,7 +3,6 @@ Family recipes
 
 # TODO
 - [ ] images
-- [ ] import breakfasts
 - [ ] search
 - [ ] header bar
   - [ ] about
@@ -15,4 +14,5 @@ Family recipes
 - [X] import recipes
 - [X] sortable table
 - [X] formatting
+- [X] import breakfasts
 
