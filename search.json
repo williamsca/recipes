@@ -1,0 +1,14 @@
+---
+layout: null
+---
+[
+{% for recipe in site.recipes %}
+  {
+    "title": {{ recipe.title | jsonify}},
+    "category": {{ recipe.category | jsonify}},
+    "description": {{ recipe.description | jsonify}},
+    "url": {{ recipe.url | relative_url | jsonify}},
+    "protein": {{ recipe.protein | jsonify}}
+    }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

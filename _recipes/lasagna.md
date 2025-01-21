@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Traditional Lasagna
+title: Lasagna
 prep_time: 2 hours
 cook_time: 50 minutes
 temperature: 375°F
