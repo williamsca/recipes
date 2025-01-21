@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const results = searchData.filter(item => {
                 const titleMatch = item.title.toLowerCase().includes(query);
                 const categoryMatch = item.category.toLowerCase().includes(query);
-                const ingredientsMatch = item.ingredients &&
-                    item.ingredients.toLowerCase().includes(query);
-                return titleMatch || categoryMatch || ingredientsMatch;
+                const proteinMatch = item.protein &&
+                    item.protein.toLowerCase().includes(query);
+                return titleMatch || categoryMatch || proteinMatch;
             }).slice(0, 5); // Limit to 5 results
 
             displayResults(results);

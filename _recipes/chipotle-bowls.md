@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Chipotle Salad
+title: Chipotle Bowls
 servings: 8
 source: Jamie Williams
 category: Main
