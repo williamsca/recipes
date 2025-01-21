@@ -53,7 +53,5 @@ title: Williams Recipes
       
     </div>
   </a>
-
-  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
   
 </div>
