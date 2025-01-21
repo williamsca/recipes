@@ -7,20 +7,11 @@ document.addEventListener('DOMContentLoaded', function () {
     let searchData = [];
     let debounceTimeout;
 
-    // Get base URL from meta tag
-    const getBaseUrl = () => {
-        // First try to get from Jekyll config
-        const baseUrl = document.querySelector('meta[name="baseurl"]')?.getAttribute('content') || '/recipes';
-        return baseUrl;
-    };
-
-    // Fetch search index with correct path
-    const baseUrl = getBaseUrl();
-    fetch(`${baseUrl}/search.json`)
+    // Fetch search index
+    fetch('/recipes/search.json')
         .then(response => response.json())
         .then(data => {
             searchData = data;
-            console.log('Search index loaded successfully'); // Debug log
         })
         .catch(error => console.error('Error loading search index:', error));
 
@@ -38,8 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const results = searchData.filter(item => {
                 const titleMatch = item.title.toLowerCase().includes(query);
                 const categoryMatch = item.category.toLowerCase().includes(query);
-                const descriptionMatch = item.description && item.description.toLowerCase().includes(query);
-                return titleMatch || categoryMatch || descriptionMatch;
+                const ingredientsMatch = item.ingredients &&
+                    item.ingredients.toLowerCase().includes(query);
+                return titleMatch || categoryMatch || ingredientsMatch;
             }).slice(0, 5); // Limit to 5 results
 
             displayResults(results);
@@ -62,9 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
         searchResults.innerHTML = results.map(result => `
             <a href="${result.url}" class="search-result-item">
                 <div class="search-result-title">${result.title}</div>
-                <div class="search-result-meta">
-                    ${result.category} • ${result.prep_time} prep • ${result.cook_time} cook
-                </div>
+                <div class="search-result-category">${result.category}</div>
             </a>
         `).join('');
 

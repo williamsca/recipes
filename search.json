@@ -6,9 +6,8 @@ layout: null
   {
     "title": {{ recipe.title | jsonify}},
     "category": {{ recipe.category | jsonify}},
-    "description": {{ recipe.description | jsonify}},
-    "url": {{ recipe.url | relative_url | jsonify}},
-    "protein": {{ recipe.protein | jsonify}}
+    "ingredients": {{ recipe.description | jsonify}},
+    "url": {{ recipe.url | relative_url | jsonify}}
     }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
