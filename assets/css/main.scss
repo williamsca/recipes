@@ -83,60 +83,101 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: var(--spacing-md);
 }
 
-/* Recipe styles */
+/* Recipe layout styles */
 .recipe {
-    margin-bottom: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .recipe-header {
-    margin-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
 
     h1 {
-        margin-bottom: 0.5rem;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
 }
 
 .recipe-metadata {
     color: #666;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 
     span {
-        margin-right: 1.5rem;
+        display: flex;
+        align-items: center;
+
+        &::before {
+            content: '•';
+            margin-right: 1.5rem;
+        }
+
+        &:first-child::before {
+            display: none;
+        }
     }
 }
 
 .recipe-description {
     font-style: italic;
-    margin-bottom: 2rem;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    color: #666;
 }
 
 .recipe-content {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 2fr;
+    gap: 4rem;
+
     section {
         margin-bottom: 2rem;
     }
 
     h2 {
-        margin-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #000;
     }
 }
 
 .ingredients {
     ul {
         list-style-type: none;
+        padding: 0;
 
         li {
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.4;
         }
     }
 }
 
 .instructions {
     ol {
-        padding-left: 1.5rem;
+        list-style-position: inside;
+        padding: 0;
 
         li {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
         }
     }
+}
+
+.recipe-notes {
+    grid-column: 1 / -1;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
 }
 
 /* Recipe card styles */
@@ -250,8 +291,33 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     /* Recipe styles */
-    .recipe-metadata span {
-        display: block;
-        margin-bottom: 0.5rem;
-    }
+        .recipe {
+            padding: 1rem;
+        }
+    
+        .recipe-header h1 {
+            font-size: 2rem;
+        }
+    
+        .recipe-metadata {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+    
+            span {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    
+        .recipe-content {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+    
+        .instructions ol {
+            padding-left: 1rem;
+            list-style-position: outside;
+        }
 }

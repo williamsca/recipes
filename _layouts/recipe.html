@@ -5,9 +5,18 @@ layout: default
     <header class="recipe-header">
         <h1>{{ page.title }}</h1>
         <div class="recipe-metadata">
+            {% if page.prep_time %}
             <span>Prep Time: {{ page.prep_time }}</span>
+            {% endif %}
+            {% if page.cook_time %}
             <span>Cook Time: {{ page.cook_time }}</span>
+            {% endif %}
+            {% if page.temperature %}
+            <span>Temperature: {{ page.temperature }}</span>
+            {% endif %}
+            {% if page.servings %}
             <span>Servings: {{ page.servings }}</span>
+            {% endif %}
         </div>
     </header>
 
@@ -24,13 +33,13 @@ layout: default
         </section>
 
         <section class="instructions">
-            <h2>Instructions</h2>
+            <h2>Preparation</h2>
             {{ page.instructions | markdownify }}
         </section>
 
         {% if page.notes %}
         <section class="recipe-notes">
-            <h2>Notes</h2>
+            <h2>Recipe Notes</h2>
             {{ page.notes | markdownify }}
         </section>
         {% endif %}
