@@ -110,18 +110,6 @@ body {
     }
 }
 
-/* Mobile responsiveness */
-@media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
-
-    .recipe-metadata span {
-        display: block;
-        margin-bottom: 0.5rem;
-    }
-}
-
 /* Category grid styles */
 .category-grid {
     display: grid;
@@ -168,8 +156,16 @@ body {
     }
 }
 
-/* Mobile responsiveness for category grid */
+
+/* Responsive styles */
 @media (max-width: 768px) {
+
+    /* Base styles */
+    body {
+        padding: 15px;
+    }
+
+    /* Category grid */
     .category-grid {
         padding: 1rem;
         gap: 1rem;
@@ -181,5 +177,11 @@ body {
         .category-icon {
             font-size: 2.5rem;
         }
+    }
+
+    /* Recipe styles */
+    .recipe-metadata span {
+        display: block;
+        margin-bottom: 0.5rem;
     }
 }
