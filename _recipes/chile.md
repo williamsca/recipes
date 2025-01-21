@@ -6,7 +6,8 @@ prep_time: 20 minutes
 cook_time: 8 hours
 servings: 8
 source: The Modern Proper
-category: Mains
+category: Main
+protein: beef
 
 ingredients: |
   * 1 lb ground beef

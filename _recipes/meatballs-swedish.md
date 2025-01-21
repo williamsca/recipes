@@ -7,7 +7,8 @@ cook_time: 25 minutes
 temperature: 165°F
 servings: 8
 source: The ModernProper
-category: Mains
+category: Main
+protein: beef
 
 ingredients: |
   **Meatballs**

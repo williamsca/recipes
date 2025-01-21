@@ -2,8 +2,12 @@
 Family recipes
 
 # TODO
-- [ ] sortable table
 - [ ] formatting
 - [ ] images
-- [ ] import recipes
-- [ ] 
+- [ ] import breakfasts
+- [ ] search
+
+# DONE
+- [X] import recipes
+- [X] sortable table
+

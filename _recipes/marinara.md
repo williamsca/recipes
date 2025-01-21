@@ -2,7 +2,8 @@
 layout: recipe
 title: Isaac's Basic Marinara
 source: Isaac Mielke
-category: Mains
+category: Main
+protein: vegetarian
 
 ingredients: |
   - 3 tbsp olive oil

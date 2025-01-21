@@ -6,7 +6,8 @@ cook_time: 50 minutes
 temperature: 375°F
 servings: 12-15
 source: Freda Lapp
-category: Mains
+category: Main
+protein: beef
 
 ingredients: |
   **Meat Sauce**

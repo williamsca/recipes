@@ -3,7 +3,8 @@ layout: recipe
 title: Chipotle Salad
 servings: 8
 source: Jamie Williams
-category: Mains
+category: Main
+protein: chicken
 
 ingredients: |
   **Cilantro-Lime Rice**

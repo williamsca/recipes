@@ -7,11 +7,12 @@ layout: default
 <table id="recipe-table" class="recipe-table">
     <thead>
         <tr>
-            <th>Recipe</th>
-            <th>Prep Time</th>
-            <th>Cook Time</th>
-            <th>Main Protein</th>
-            <th>Difficulty</th>
+            <th class="sort-header">Recipe</th>
+            <th class="sort-header" data-sort-method="time">Prep Time</th>
+            <th class="sort-header" data-sort-method="time">Cook Time</th>
+                {% if page.category == "Main" %}
+                <th class="sort-header">Protein</th>
+                {% endif %}
         </tr>
     </thead>
     <tbody>
@@ -19,16 +20,84 @@ layout: default
         {% for recipe in category_recipes %}
         <tr>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
-            <td>{{ recipe.prep_time }}</td>
-            <td>{{ recipe.cook_time }}</td>
+            <td data-sort="{{ recipe.prep_time | replace: ' minutes', '' }}">{{ recipe.prep_time }}</td>
+            <td data-sort="{{ recipe.cook_time | replace: ' minutes', '' }}">{{ recipe.cook_time }}</td>
+            {% if page.category == "Main" %}
             <td>{{ recipe.protein }}</td>
-            <td>{{ recipe.difficulty }}</td>
+            {% endif %}
         </tr>
         {% endfor %}
     </tbody>
 </table>
 
+<!-- Include both the core library and the time sorting plugin -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.number.min.js"></script>
+
+<style>
+    .recipe-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+    }
+
+    .recipe-table th,
+    .recipe-table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+    }
+
+    .sort-header {
+        cursor: pointer;
+        position: relative;
+        padding-right: 20px !important;
+    }
+
+    .sort-header:hover {
+        background-color: #f5f5f5;
+    }
+
+    .sort-header::after,
+    .sort-header::before {
+        content: '';
+        position: absolute;
+        right: 8px;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        opacity: 0.3;
+    }
+
+    .sort-header::before {
+        bottom: 13px;
+        border-bottom: 4px solid #404040;
+    }
+
+    .sort-header::after {
+        top: 13px;
+        border-top: 4px solid #404040;
+    }
+
+    /* Sort indicators */
+    th.sort-header.sort-asc::before,
+    th.sort-header[aria-sort="ascending"]::before {
+        opacity: 1 !important;
+    }
+
+    th.sort-header.sort-desc::after,
+    th.sort-header[aria-sort="descending"]::after {
+        opacity: 1 !important;
+    }
+
+    /* Ensure the arrows stay visible when sorting */
+    th.sort-header::before,
+    th.sort-header::after {
+        transition: opacity 0.2s ease;
+    }
+</style>
+
 <script>
+    // Initialize tablesort
     new Tablesort(document.getElementById('recipe-table'));
 </script>
