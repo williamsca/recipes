@@ -3,7 +3,7 @@ layout: recipe
 title: Cheese Danish
 description: Kaitlyn rated these danishes as "the best thing we've made so far." They were so good that we ate two each, felt sick, and immediately decided not to share any with my suitemates.
 prep_time: 1.5 hours
-cook_time: 16-18 minutes # combined 10 + 6-8 minutes
+cook_time: 16-18 minutes
 temperature: 425°F # starts at 425°F, reduces to 375°F
 servings: 9
 source: NYT Cooking

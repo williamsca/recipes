@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Lemon Bars
-description: While neither of us particularly crave lemon bars, these were easy to make and great to eat, as I hope you can tell from my expression above. On Renton's recommendation, we watched this demonstration on YouTube.
+description: 
 prep_time: 20 minutes
 cook_time: 25 minutes
 temperature: 350°F
