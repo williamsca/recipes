@@ -14,11 +14,11 @@ title: Williams Recipes
     </div>
   </a>
 
-  <a href="{{ '/categories/main' | relative_url }}" class="category-card main">
+  <a href="{{ '/categories/dinner' | relative_url }}" class="category-card dinner">
     <div class="category-icon">
       🍽️
     </div>
-    <h2>Main Dishes</h2>
+    <h2>Dinner</h2>
     <div class="category-description">
       
     </div>
