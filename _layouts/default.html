@@ -11,9 +11,7 @@
 <body>
 
     <header class="site-header">
-        <nav class="header-nav">
-            <a href="{{ '/about' | relative_url }}" class="nav-link">about</a>
-        </nav>
+        
         <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <div class="search-container" style="position: relative;">
             <input type="text" id="search-input" placeholder="search recipes..." class="search-input">
@@ -28,7 +26,9 @@
     </main>
 
     <footer class="site-footer">
-        <p></p> <!-- Made with love for Valentine's Day -->
+        <p> <nav class="footer-nav">
+            <a href="{{ '/about' | relative_url }}" class="nav-link">about</a>
+        </nav> </p> <!-- Made with love for Valentine's Day -->
     </footer>
 </body>
 
