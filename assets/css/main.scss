@@ -1,6 +1,54 @@
 ---
 ---
 
+/* Design Tokens */
+:root {
+    /* Colors */
+    --color-primary: #7C3AED;
+    /* A deep purple */
+    --color-primary-light: #9F67FF;
+    --color-primary-dark: #5B21B6;
+
+    /* Neutral colors for dark mode */
+    --color-bg: #1A1A1A;
+    --color-bg-secondary: #2A2A2A;
+    --color-text: #E5E5E5;
+    --color-text-muted: #A3A3A3;
+    --color-border: #404040;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.6);
+
+    /* Typography */
+    --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --font-secondary: Georgia, serif;
+
+    /* Font sizes using a modular scale */
+    --text-xs: 0.75rem;
+    /* 12px */
+    --text-sm: 0.875rem;
+    /* 14px */
+    --text-base: 1rem;
+    /* 16px */
+    --text-lg: 1.125rem;
+    /* 18px */
+    --text-xl: 1.25rem;
+    /* 20px */
+    --text-2xl: 1.5rem;
+    /* 24px */
+    --text-3xl: 1.875rem;
+    /* 30px */
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+}
+
 /* Reset and base styles */
 * {
     box-sizing: border-box;
@@ -8,13 +56,31 @@
     padding: 0;
 }
 
+/* Base styles using variables */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-primary);
+    background-color: var(--color-bg);
+    color: var(--color-text);
     line-height: 1.6;
-    color: #333;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: var(--spacing-lg);
+}
+
+a {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: var(--color-primary);
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-md);
 }
 
 /* Recipe styles */
