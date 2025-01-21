@@ -3,7 +3,7 @@ layout: recipe
 title: Chipotle Bowls
 servings: 8
 source: Jamie Williams
-category: Main
+category: Dinner
 protein: chicken
 
 ingredients: |

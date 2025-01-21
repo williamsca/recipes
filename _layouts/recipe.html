@@ -22,7 +22,7 @@ layout: default
 
     {% if page.description %}
     <div class="recipe-description">
-        {{ page.description }}
+        {{ page.description | markdownify }}
     </div>
     {% endif %}
 

@@ -2,7 +2,7 @@
 layout: recipe
 title: Isaac's Basic Marinara
 source: Isaac Mielke
-category: Main
+category: Dinner
 protein: vegetarian
 
 ingredients: |

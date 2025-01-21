@@ -6,7 +6,7 @@ prep_time: 20 minutes
 cook_time: 8 hours
 servings: 8
 source: The Modern Proper
-category: Main
+category: Dinner
 protein: beef
 
 ingredients: |
