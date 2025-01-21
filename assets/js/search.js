@@ -7,11 +7,20 @@ document.addEventListener('DOMContentLoaded', function () {
     let searchData = [];
     let debounceTimeout;
 
-    // Fetch search index
-    fetch(window.location.pathname.includes('/recipes') ? '/recipes/search.json' : '/search.json')
+    // Get base URL from meta tag
+    const getBaseUrl = () => {
+        // First try to get from Jekyll config
+        const baseUrl = document.querySelector('meta[name="baseurl"]')?.getAttribute('content') || '/recipes';
+        return baseUrl;
+    };
+
+    // Fetch search index with correct path
+    const baseUrl = getBaseUrl();
+    fetch(`${baseUrl}/search.json`)
         .then(response => response.json())
         .then(data => {
             searchData = data;
+            console.log('Search index loaded successfully'); // Debug log
         })
         .catch(error => console.error('Error loading search index:', error));
 
@@ -54,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <a href="${result.url}" class="search-result-item">
                 <div class="search-result-title">${result.title}</div>
                 <div class="search-result-meta">
-                    ${result.category} • ${result.protein} protein
+                    ${result.category} • ${result.prep_time} prep • ${result.cook_time} cook
                 </div>
             </a>
         `).join('');
