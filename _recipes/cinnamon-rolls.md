@@ -43,3 +43,4 @@ instructions: |
 
 notes: | 
 - To make overnight cinnamon rolls, cut as directed, arrange in a pan lined with parchment paper, cover well with plastic wrap, and place in the fridge overnight. In the morning, bring the cinnamon rolls to room temperature and let them rise for 45 minutes to 1 hour before baking as directed.
+---
