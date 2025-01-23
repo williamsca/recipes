@@ -4,6 +4,7 @@ Family recipes
 # TODO
 - [ ] menu / table swap
 - [ ] more recipes: tiramisu, cinnamon rolls, etc.
+- [ ] search result shows quantity of ingredient???
 
 # DONE
 - [X] import recipes
