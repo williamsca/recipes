@@ -8,6 +8,8 @@ temperature: 425°F # starts at 425°F, reduces to 375°F
 servings: 9
 source: NYT Cooking
 category: Fika
+effort: high
+duration: hours
 
 ingredients: |
   - 8 oz cream cheese

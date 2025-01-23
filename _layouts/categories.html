@@ -8,8 +8,8 @@ layout: default
     <thead>
         <tr>
             <th class="sort-header">Recipe</th>
-            <th class="sort-header" data-sort-method="time">Prep Time</th>
-            <th class="sort-header" data-sort-method="time">Cook Time</th>
+            <th class="sort-header" data-sort-method="effort">Effort</th>
+            <th class="sort-header" data-sort-method="duration">Duration</th>
             {% if page.category == "Dinner" %}
             <th class="sort-header">Protein</th>
             {% endif %}
@@ -20,8 +20,8 @@ layout: default
         {% for recipe in category_recipes %}
         <tr>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
-            <td data-sort="{{ recipe.prep_time | replace: ' minutes', '' }}">{{ recipe.prep_time }}</td>
-            <td data-sort="{{ recipe.cook_time | replace: ' minutes', '' }}">{{ recipe.cook_time }}</td>
+            <td data-sort="{{ recipe.effort }}">{{ recipe.effort | capitalize }}</td>
+            <td data-sort="{{ recipe.duration }}">{{ recipe.duration | capitalize }}</td>
             {% if page.category == "Dinner" %}
             <td>{{ recipe.protein }}</td>
             {% endif %}
@@ -31,7 +31,6 @@ layout: default
 </table>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.number.min.js"></script>
 
 <style>
     .recipe-table {
@@ -107,5 +106,35 @@ layout: default
 </style>
 
 <script>
+    // Custom sort functions for effort and duration
+    Tablesort.extend('effort', function (item) {
+        // Check if the item has a sort attribute
+        return item.match(/^(low|medium|high)$/i);
+    }, function (a, b) {
+        const efforts = {
+            'low': 1,
+            'medium': 2,
+            'high': 3
+        };
+        const effortA = efforts[a.toLowerCase()];
+        const effortB = efforts[b.toLowerCase()];
+        return effortA - effortB;
+    });
+
+    Tablesort.extend('duration', function (item) {
+        // Check if the item has a sort attribute
+        return item.match(/^(minutes|hours|days)$/i);
+    }, function (a, b) {
+        const durations = {
+            'minutes': 1,
+            'hours': 2,
+            'days': 3
+        };
+        const durationA = durations[a.toLowerCase()];
+        const durationB = durations[b.toLowerCase()];
+        return durationA - durationB;
+    });
+
+    // Initialize tablesort
     new Tablesort(document.getElementById('recipe-table'));
 </script>

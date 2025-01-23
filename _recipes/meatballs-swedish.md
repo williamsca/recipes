@@ -9,6 +9,8 @@ servings: 8
 source: The ModernProper
 category: Dinner
 protein: beef
+effort: high
+duration: hours
 
 ingredients: |
   **Meatballs**

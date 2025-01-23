@@ -169,6 +169,16 @@
     font-size: var(--text-sm);
 }
 
+/* Footer styles */
+.site-footer {
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--color-border);
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+}
+
 /* Reset and base styles */
 * {
     box-sizing: border-box;

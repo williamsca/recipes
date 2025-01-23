@@ -7,6 +7,8 @@ cook_time: 8-10 minutes
 temperature: 410°F
 servings: 14
 category: Fika
+effort: high
+duration: hours
 
 ingredients: |
   **Dough - predough**

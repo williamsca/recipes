@@ -2,11 +2,8 @@
 Family recipes
 
 # TODO
-- [ ] footer; write about
-- [ ] add protein to dinner category table
-- [ ] clean up category tables
-  - [ ] swap to "Effort" (Low, Medium, High) and "Duration" (Short, Medium, Long)
-  - [ ] fix mobile so table isn't wider than screen
+- [ ] menu / table swap
+- [ ] more recipes: tiramisu, cinnamon rolls, etc.
 
 # DONE
 - [X] import recipes
@@ -14,4 +11,9 @@ Family recipes
 - [X] formatting
 - [X] import breakfasts
 - [X] search
+- [X] footer; write about
+- [X] add protein to dinner category table
+- [X] clean up category tables
+  - [X] swap to "Effort" (Low, Medium, High) and "Duration" (Short, Medium, Long)
+  - [X] fix mobile so table isn't wider than screen
 

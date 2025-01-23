@@ -6,6 +6,8 @@ prep_time: 15 minutes
 cook_time: 4 minutes
 servings: 4
 category: Breakfast
+effort: low
+duration: minutes
 
 ingredients: |
   - 2 cups all-purpose flour

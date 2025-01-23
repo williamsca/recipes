@@ -3,9 +3,12 @@ layout: recipe
 title: Kanelbullar
 description: For an excellent video guide, see Roy Fares bästa kanelbullar. Be sure to celebrate Kanelbullens Dag on October 4!
 prep_time: 2.5 hours
+cook_time: 10 minutes
 temperature: 375°F
 servings: 25-30
 category: Fika
+effort: high
+duration: hours
 
 ingredients: |
   **Dough**

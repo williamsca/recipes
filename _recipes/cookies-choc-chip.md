@@ -7,6 +7,8 @@ temperature: 325°F
 servings: 18
 source: Jamie Williams
 category: Dessert
+effort: low
+duration: minutes
 
 ingredients: |
   - 2 cups plus 2 tbsp all-purpose flour
