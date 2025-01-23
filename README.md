@@ -2,8 +2,8 @@
 Family recipes
 
 # TODO
-- [ ] menu / table swap
 - [ ] more recipes: tiramisu, cinnamon rolls, etc.
+- [ ] menu / table swap?
 - [ ] search result shows quantity of ingredient???
 
 # DONE

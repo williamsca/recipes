@@ -4,10 +4,9 @@
 /* Design Tokens */
 :root {
     /* Colors */
-    --color-primary: #7C3AED;
-    /* A deep purple */
-    --color-primary-light: #9F67FF;
-    --color-primary-dark: #5B21B6;
+    --color-primary: #10B981; /* A vibrant green */
+    --color-primary-light: #34D399;
+    --color-primary-dark: #059669;
 
     /* Neutral colors for dark mode */
     --color-bg: #1A1A1A;
@@ -211,6 +210,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-primary);
     color: var(--color-text);
     margin-bottom: var(--spacing-md);
+}
+
+p {
+    margin-bottom: var(--spacing-lg);
 }
 
 /* Recipe layout styles */
