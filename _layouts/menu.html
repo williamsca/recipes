@@ -5,7 +5,7 @@ layout: default
 <div class="menu-header">
     <h2>{{ page.category }}</h2>
     {% assign current_path = page.url | split: '/' | last %}
-    <a href="{{ 'categories/' | append: page.category | downcase | append: '/' | relative_url }}" class="view-toggle">Table View</a>
+    <a href="{{ 'categories/' | append: page.category | downcase | relative_url }}" class="view-toggle">Table View</a>
 </div>
 
 <div class="menu-content">
