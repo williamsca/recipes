@@ -6,7 +6,7 @@ prep_time: 45 minutes
 cook_time: 25 minutes
 temperature: 165°F
 servings: 8
-source: The ModernProper
+source: The Modern Proper
 category: Dinner
 protein: beef
 effort: high

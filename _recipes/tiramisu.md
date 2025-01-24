@@ -7,6 +7,7 @@ source: Summer Osborne
 category: Dessert
 effort: medium
 duration: hours
+menu: A luxurious Italian classic layering espresso-soaked ladyfingers with rich mascarpone cream, finished with a dusting of cocoa and shaved chocolate.
 
 ingredients: |
   - 2 1/2 cups strong black coffee, room temperature

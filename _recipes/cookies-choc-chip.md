@@ -9,6 +9,7 @@ source: Jamie Williams
 category: Dessert
 effort: low
 duration: minutes
+menu: Rich, chewy cookies with a hint of vanilla. These are perfect for any and every occasion, but they are especially good after a long walk around campus.
 
 ingredients: |
   - 2 cups plus 2 tbsp all-purpose flour
