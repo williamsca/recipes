@@ -3,6 +3,7 @@ Family recipes
 
 # TODO
 - [ ] search result shows quantity of ingredient???
+- [ ] add soups
 
 # DONE
 - [X] import recipes
