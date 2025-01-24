@@ -11,16 +11,14 @@ layout: default
 <div class="menu-content">
     {% assign category_recipes = site.recipes | where: "category", page.category %}
     {% for recipe in category_recipes %}
-    <div class="menu-item">
+    <a href="{{ recipe.url | relative_url }}" class="menu-item">
         <div class="menu-item-header">
             <h3 class="menu-item-title">{{ recipe.title }}</h3>
-            <span class="menu-item-effort">{{ recipe.effort | capitalize }}</span>
         </div>
         {% if recipe.menu %}
         <p class="menu-item-description">{{ recipe.menu }}</p>
         {% endif %}
-        <a href="{{ recipe.url | relative_url }}" class="menu-item-link">View Recipe →</a>
-    </div>
+    </a>
     {% endfor %}
 </div>
 
@@ -28,6 +26,19 @@ layout: default
     .menu-content {
         display: grid;
         gap: var(--spacing-lg);
+    }
+
+    .menu-item {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .menu-item:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item:active {
+        transform: translateY(-2px);
     }
 
     .menu-item {
@@ -41,16 +52,11 @@ layout: default
         justify-content: space-between;
         align-items: center;
         margin-bottom: var(--spacing-md);
-    }
+    } 
 
     .menu-item-title {
         margin: 0;
         font-size: var(--text-xl);
-    }
-
-    .menu-item-effort {
-        color: var(--color-text-muted);
-        font-size: var(--text-sm);
     }
 
     .menu-item-description {
@@ -58,8 +64,4 @@ layout: default
         margin-bottom: var(--spacing-md);
     }
 
-    .menu-item-link {
-        display: inline-block;
-        font-size: var(--text-sm);
-    }
 </style>

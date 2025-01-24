@@ -2,6 +2,7 @@
 layout: recipe
 title: Biscuits
 description: For best results, chill your butter in the freezer for 10-20 minutes before beginning this recipe. It's ideal that the butter is very cold for light, flaky, buttery biscuits.
+menu: Homemade buttermilk biscuits served with sausage gravy and scrambled eggs. Butter and jam are also available for topping.
 prep_time: 15 minutes
 cook_time: 12 minutes
 temperature: 425°F
