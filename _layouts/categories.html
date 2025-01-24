@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<h2>{{ page.category }}</h2>
+<div class="menu-header">
+    <h2>{{ page.category }}</h2>
+    {% assign current_path = page.url | split: '/' | last %}
+    <a href="{{ 'categories/' | append: page.category | downcase | append: '-menu/' | relative_url }}" class="view-toggle">Menu View</a>
+</div>
 
 <table id="recipe-table" class="recipe-table">
     <thead>
