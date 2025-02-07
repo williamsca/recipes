@@ -8,6 +8,7 @@ servings: 6
 category: Soup
 effort: low
 duration: minutes
+source: The Modern Proper
 
 ingredients: |
   - 1 pound mild italian sausage, ground or casing removed
