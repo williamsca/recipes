@@ -18,7 +18,7 @@ we were cooking or cleaning up (although watching Gilmore Girls may be a close s
 As you rightly observed, one of the top five benefits to dating is the fact that you can cook
 reasonable quantities of food and not have to eat it for the rest of the week. It’s also nice
 to have a shared project. I like how our Swedish connection continues to reverberate; in
-this edition, I have added both Swedish Meatballs and kladdkaka, among a number of other
+this edition, I have added both [Swedish Meatballs](/recipes/recipes/meatballs-swedish/) and kladdkaka, among a number of other
 items. *Washington, DC. 11-25-2019.*
 
 ---
