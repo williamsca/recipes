@@ -23,4 +23,7 @@ instructions: |
   1. Preheat griddle to 375°F.
   2. In a medium bowl, whisk together flour, baking powder, baking soda, salt, and sugar.
   3. Add eggs, buttermilk, and butter; whisk to combine. Batter should have small to medium lumps.
+
+notes: |
+  - You can substitute 2 1/4 cup greek yogurt and 3/4 cup whole milk for the buttermilk in a pinch.
 ---
