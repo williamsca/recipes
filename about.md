@@ -3,7 +3,7 @@ layout: default
 title: about
 ---
 
-Welcome to the digital edition of your favorite cookbook! Although there are plenty changes after you have your first baby, the biggest one here is the addition of a [Breakfast](/recipes/categories/breakfast) section. We've become experts at the classic breakfasts, even with Ramona constantly underfoot, and we've expanded our menu beyond pancakes to include cinnamon rolls, casserole, and [biscuits](/recipes/recipes/biscuits/) and gravy. In my view, there is no better start to the day than eating an unhurried breakfast while the little one takes her morning nap. *Charlottesville, VA. 1-22-2025.*
+Welcome to the digital edition of your favorite cookbook! Although there are plenty changes after you have your first baby, the biggest one here is the addition of a [Breakfast](/recipes/categories/breakfast) section. We've become experts at the classic breakfasts, even with Ramona constantly underfoot, and we've expanded our menu beyond pancakes to include cinnamon rolls, casserole, and [biscuits](/recipes/recipes/biscuits/) and [gravy](/recipes/recipes/sausage-gravy/). In my view, there is no better start to the day than eating an unhurried breakfast while the little one takes her morning nap. *Charlottesville, VA. 1-22-2025.*
 
 ---
 
