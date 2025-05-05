@@ -53,5 +53,25 @@ title: Williams Recipes
       
     </div>
   </a>
+
+  <a href="{{ '/categories/lunch' | relative_url }}" class="category-card lunch">
+    <div class="category-icon">
+      🥪
+    </div>
+    <h2>Lunch</h2>
+    <div class="category-description">
+      
+    </div>
+  </a>
+
+  <a href="{{ '/categories/drinks' | relative_url }}" class="category-card drinks">
+    <div class="category-icon">
+      🍹
+    </div>
+    <h2>Drinks</h2>
+    <div class="category-description">
+      
+    </div>
+  </a>
   
 </div>

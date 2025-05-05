@@ -14,7 +14,7 @@ layout: default
             <th class="sort-header">Recipe</th>
             <th class="sort-header" data-sort-method="effort">Effort</th>
             <th class="sort-header" data-sort-method="duration">Duration</th>
-            {% if page.category == "Dinner" %}
+            {% if page.category == "Dinner" or page.category == "Lunch" %}
             <th class="sort-header">Protein</th>
             {% endif %}
         </tr>
@@ -26,7 +26,7 @@ layout: default
             <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.title }}</a></td>
             <td data-sort="{{ recipe.effort }}"><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.effort | capitalize }}</a></td>
             <td data-sort="{{ recipe.duration }}"><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.duration | capitalize }}</a></td>
-            {% if page.category == "Dinner" %}
+            {% if page.category == "Dinner" or page.category == "Lunch" %}
             <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.protein }}</a></td>
             {% endif %}
         </tr>
