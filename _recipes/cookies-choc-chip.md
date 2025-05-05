@@ -21,7 +21,7 @@ ingredients: |
   - 1 egg
   - 1 egg yolk
   - 2 tsp vanilla extract
-  - 1/2 cup semisweet chocolate chips
+  - 1 - 1 1/2 cups semisweet chocolate chips
 
 instructions: |
   1. Adjust oven racks to upper- and lower-middle positions. Heat oven to 325°F.
