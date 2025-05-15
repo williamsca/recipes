@@ -7,6 +7,7 @@ temperature: 350°F
 servings: 12
 source: BrownEyedBaker
 category: Dessert
+flavor: pumpkin
 
 ingredients: |
   **Cupcakes**

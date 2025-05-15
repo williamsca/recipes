@@ -15,6 +15,9 @@ layout: default
             {% if page.category == "Dinner" or page.category == "Lunch" %}
             <th class="sort-header">Protein</th>
             {% endif %}
+            {% if page.category == "Dessert" %}
+            <th class="sort-header">Flavor</th>
+            {% endif %}
         </tr>
     </thead>
     <tbody>
@@ -24,6 +27,9 @@ layout: default
             <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.title }}</a></td>
             {% if page.category == "Dinner" or page.category == "Lunch" %}
             <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.protein }}</a></td>
+            {% endif %}
+            {% if page.category == "Dessert" %}
+            <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.flavor }}</a></td>
             {% endif %}
         </tr>
         {% endfor %}

@@ -2,6 +2,7 @@
 layout: recipe
 title: Strawberry Shortcake Cobbler
 category: Dessert
+flavor: fruit
 servings: 6
 prep_time: 20 minutes
 cook_time: 30 minutes
