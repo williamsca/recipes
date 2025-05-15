@@ -6,8 +6,6 @@ prep_time: 10 minutes
 cook_time: 45 minutes
 servings: 8
 category: Dinner
-effort: medium
-duration: hours
 protein: vegetarian
 
 ingredients: |

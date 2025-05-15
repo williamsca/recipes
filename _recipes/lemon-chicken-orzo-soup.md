@@ -6,8 +6,6 @@ prep_time: 10 minutes
 cook_time: 20 minutes
 servings: 4
 category: Soup
-effort: medium
-duration: minutes
 temperature: 
 source: 
 

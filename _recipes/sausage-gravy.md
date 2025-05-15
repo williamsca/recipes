@@ -6,8 +6,6 @@ prep_time: 5 minutes
 cook_time: 20 minutes
 servings: 6-8
 category: Breakfast
-effort: low
-duration: minutes
 
 ingredients: |
   - 1 pound bulk pork breakfast sausage

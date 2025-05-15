@@ -5,8 +5,6 @@ prep_time: 1 hour plus chilling time
 servings: 9
 source: NYT Cooking
 category: Fika
-effort: high
-duration: days
 
 ingredients: |
   - 1 1/2 cups bread flour, plus more for surface

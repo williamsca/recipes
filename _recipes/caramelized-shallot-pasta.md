@@ -2,13 +2,12 @@
 layout: recipe
 title: Caramelized Shallot Pasta
 category: Dinner
-effort: medium
-duration: minutes
 servings: 4
 prep_time: 10 minutes
 cook_time: 30 minutes
 protein: vegetarian
 source: Alison Roman
+
 ingredients: |
   - ¼ cup olive oil
   - 6 large shallots, very thinly sliced

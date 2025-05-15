@@ -6,8 +6,6 @@ prep_time: 5 minutes
 cook_time: 1 hour 10 minutes
 servings: 6
 category: Dinner
-effort: medium
-duration: hours
 protein: chicken
 source: 40 Aprons
 

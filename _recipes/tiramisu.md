@@ -5,8 +5,6 @@ prep_time: 30 minutes
 servings: 12
 source: Summer Osborne
 category: Dessert
-effort: medium
-duration: hours
 menu: A luxurious Italian classic layering espresso-soaked ladyfingers with rich mascarpone cream, finished with a dusting of cocoa and shaved chocolate.
 
 ingredients: |

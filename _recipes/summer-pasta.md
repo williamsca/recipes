@@ -6,8 +6,6 @@ prep_time: 15 minutes
 cook_time: 15 minutes
 servings: 4-6
 category: Dinner
-effort: medium
-duration: minutes
 protein: vegetarian
 
 ingredients: |

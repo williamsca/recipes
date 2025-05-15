@@ -5,8 +5,6 @@ servings: 8
 source: Jamie Williams
 category: Dinner
 protein: chicken
-effort: high
-duration: minutes
 
 ingredients: |
   **Cilantro-Lime Rice**

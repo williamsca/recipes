@@ -8,8 +8,6 @@ servings: 12-15
 source: Freda Lapp
 category: Dinner
 protein: beef
-effort: medium
-duration: hours
 
 ingredients: |
   **Meat Sauce**

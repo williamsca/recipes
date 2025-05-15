@@ -8,8 +8,6 @@ servings: 8
 source: The Modern Proper
 category: Dinner
 protein: beef
-effort: low
-duration: hours
 
 ingredients: |
   * 1 lb ground beef

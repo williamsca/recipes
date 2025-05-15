@@ -4,8 +4,6 @@ title: Isaac's Marinara
 source: Isaac Mielke
 category: Dinner
 protein: vegetarian
-effort: low
-duration: hours
 
 ingredients: |
   - 3 tbsp olive oil

@@ -9,8 +9,6 @@ temperature: 425°F
 servings: 6
 category: Breakfast
 source: Kristi Terasa
-effort: medium
-duration: minutes
 
 ingredients: |
   - 2 cups all-purpose flour (250g)

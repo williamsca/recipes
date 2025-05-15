@@ -6,8 +6,6 @@ prep_time: 2 hours
 cook_time: 20 minutes
 servings: 9
 category: Breakfast
-effort: high
-duration: hours
 source: Kristi Terasa
 menu: Ambitious Kitchen's "The Best Cinnamon Rolls You'll Ever Eat" served with fruit, scrambled eggs, and bacon.
 

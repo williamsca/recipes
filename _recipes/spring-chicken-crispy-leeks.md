@@ -2,8 +2,6 @@
 layout: recipe
 title: Spring Chicken with Crispy Leeks
 category: Dinner
-effort: medium
-duration: hours
 servings: 2-4
 prep_time: 30 minutes
 cook_time: 60 minutes

@@ -7,8 +7,6 @@ cook_time: 10 minutes
 temperature: 375°F
 servings: 25-30
 category: Fika
-effort: high
-duration: hours
 
 ingredients: |
   **Dough**

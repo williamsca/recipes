@@ -12,8 +12,6 @@ layout: default
     <thead>
         <tr>
             <th class="sort-header">Recipe</th>
-            <th class="sort-header" data-sort-method="effort">Effort</th>
-            <th class="sort-header" data-sort-method="duration">Duration</th>
             {% if page.category == "Dinner" or page.category == "Lunch" %}
             <th class="sort-header">Protein</th>
             {% endif %}
@@ -24,8 +22,6 @@ layout: default
         {% for recipe in category_recipes %}
         <tr>
             <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.title }}</a></td>
-            <td data-sort="{{ recipe.effort }}"><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.effort | capitalize }}</a></td>
-            <td data-sort="{{ recipe.duration }}"><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.duration | capitalize }}</a></td>
             {% if page.category == "Dinner" or page.category == "Lunch" %}
             <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.protein }}</a></td>
             {% endif %}
@@ -118,34 +114,6 @@ layout: default
 </style>
 
 <script>
-    // Custom sort functions for effort and duration
-    Tablesort.extend('effort', function (item) {
-        // Check if the item has a sort attribute
-        return item.match(/^(low|medium|high)$/i);
-    }, function (a, b) {
-        const efforts = {
-            'low': 1,
-            'medium': 2,
-            'high': 3
-        };
-        const effortA = efforts[a.toLowerCase()];
-        const effortB = efforts[b.toLowerCase()];
-        return effortA - effortB;
-    });
-
-    Tablesort.extend('duration', function (item) {
-        // Check if the item has a sort attribute
-        return item.match(/^(minutes|hours|days)$/i);
-    }, function (a, b) {
-        const durations = {
-            'minutes': 1,
-            'hours': 2,
-            'days': 3
-        };
-        const durationA = durations[a.toLowerCase()];
-        const durationB = durations[b.toLowerCase()];
-        return durationA - durationB;
-    });
 
     // Initialize tablesort
     new Tablesort(document.getElementById('recipe-table'));

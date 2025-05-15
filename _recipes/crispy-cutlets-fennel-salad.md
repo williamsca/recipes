@@ -2,8 +2,6 @@
 layout: recipe
 title: Crispy Cutlets with Fennel Salad
 category: Dinner
-effort: medium
-duration: minutes
 servings: 2
 prep_time: 20 minutes
 cook_time: 10 minutes

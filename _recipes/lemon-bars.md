@@ -7,8 +7,6 @@ cook_time: 25 minutes
 temperature: 350°F
 servings: 16
 category: Dessert
-effort: medium
-duration: minutes
 
 ingredients: |
   **Shortbread crust**

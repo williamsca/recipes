@@ -7,8 +7,6 @@ temperature: 350°F
 servings: 12
 source: BrownEyedBaker
 category: Dessert
-effort: medium
-duration: minutes
 
 ingredients: |
   **Cupcakes**

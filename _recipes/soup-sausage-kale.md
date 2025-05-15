@@ -6,8 +6,6 @@ prep_time: 10 minutes
 cook_time: 30 minutes
 servings: 6
 category: Soup
-effort: low
-duration: minutes
 source: The Modern Proper
 
 ingredients: |

@@ -2,8 +2,6 @@
 layout: recipe
 title: Spicy Chicken Piccata
 category: Dinner
-effort: medium
-duration: minutes
 servings: 2
 prep_time: 15 minutes
 cook_time: 15 minutes
