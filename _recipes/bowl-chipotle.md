@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Chipotle Bowls
+title: Chipotle Bowl
 servings: 8
 source: Jamie Williams
 category: Dinner

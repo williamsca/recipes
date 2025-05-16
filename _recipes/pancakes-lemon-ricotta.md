@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Lemon Ricotta Pancakes with Blueberry Sauce
+title: Lemon Ricotta Pancakes
 menu: Served with berry compote and fresh whipped cream. Sides include scrambled eggs and bacon.
 prep_time: 10 minutes
 cook_time: 25 minutes

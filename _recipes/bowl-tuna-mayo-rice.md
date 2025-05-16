@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Tuna Mayo Rice Bowl
-description: A staple of home cooking in South Korea (where it is sometimes called deopbap), this simple meal is a workday staple.
+description: A classic of home cooking in South Korea (where it is sometimes called deopbap), this simple meal features pantry staples and is quick to throw together.
 prep_time: 5 minutes
 cook_time: 0 minutes
 servings: 1

@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Pancakes
+title: Buttermilk Pancakes
 menu: Buttermilk pancakes served with fruit, scrambled eggs, and bacon. Option to add chocolate chips or blueberries. Toppings include syrup, nutella, peanut butter, and freshly-made whipped cream.
 prep_time: 15 minutes
 cook_time: 4 minutes
