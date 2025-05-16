@@ -6,7 +6,7 @@ prep_time: 5 minutes
 cook_time: 0 minutes
 servings: 1
 category: Lunch
-protein: Tuna
+protein: tuna
 source: Eric Kim
 
 ingredients: |

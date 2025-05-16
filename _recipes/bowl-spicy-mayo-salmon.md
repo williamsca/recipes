@@ -5,9 +5,7 @@ prep_time: 25 minutes
 cook_time: 15 minutes
 servings: 4
 category: Dinner
-effort: medium
-duration: hours
-protein: Salmon
+protein: salmon
 
 ingredients: |
   **Salmon**

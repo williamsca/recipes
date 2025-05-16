@@ -5,9 +5,7 @@ prep_time: 25 minutes
 cook_time: 20 minutes
 servings: 6
 category: Dinner
-effort: medium
-duration: hours
-protein: Chicken
+protein: chicken
 
 ingredients: |
   **Chicken**
