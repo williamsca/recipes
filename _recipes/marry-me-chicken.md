@@ -26,12 +26,8 @@ ingredients: |
 
 instructions: |
   1. Pat the chicken dry. Season all over with 1 teaspoon of the salt.
-  
   2. Heat the oil in a large skillet over medium heat. Once the oil is glistening, add the chicken and cook until golden brown, about 5 minutes per side. Transfer to a plate.
-  
   3. To the same skillet, add the garlic and cook until fragrant, about 30 seconds. Stir in heavy cream, chicken stock, bouillon, ¼ cup of the parmesan cheese, sun dried tomatoes, Italian seasoning, pepper, ¼ teaspoon red pepper flakes, and remaining ½ teaspoon salt until combined.
-  
   4. Return the chicken to the skillet. Bring the sauce to a simmer, then reduce the heat to medium low. Cook until the internal temperature of the chicken reaches 165°F on an instant-read thermometer, about 5-8 more minutes.
-  
   5. Top the chicken with basil, remaining ¼ cup Parmesan cheese, and remaining red pepper flakes. Serve over pasta or mashed potatoes, if desired.
 ---

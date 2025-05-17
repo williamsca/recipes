@@ -33,4 +33,5 @@ notes: |
   - This recipe makes enough caramelized shallot mixture for two batches of pasta.
   - The reserved portion can be refrigerated and used in various applications: tossed with another batch of pasta, spread on roasted vegetables, spooned over fried eggs, or served with crispy chicken thighs.
   - The caramelized shallots are the star of this dish, providing sweetness that balances with the salty anchovies and tangy tomato paste.
+  - Serve alongside salad with an [italian dressing](/recipes/recipes/dressing-italian/) and [garlic bread](/recipes/recipes/bread-garlic/).
 ---

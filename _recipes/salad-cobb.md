@@ -6,6 +6,8 @@ prep_time: 20 minutes
 cook_time: 30 minutes
 servings: 4
 category: Dinner
+effort: medium
+duration: minutes
 protein: chicken
 
 ingredients: |
@@ -28,13 +30,9 @@ ingredients: |
 
 instructions: |
   1. **Make the dressing:** Cover shallot rings with vinegar and season with salt and pepper. Let sit for 5 minutes to lightly pickle. Add mustard and olive oil and whisk to blend. Season to taste.
-  
   2. **Prepare the eggs:** Bring a small pot of water to a boil. Gently lower in eggs and boil for 8 minutes. Chill quickly under cold water, then peel and set aside.
-  
   3. **Cook the bacon:** Cook bacon in a large skillet over medium heat until crispy, 8-10 minutes. Transfer to paper towels to cool, then coarsely chop.
-  
   4. **Cook the chicken:** Drain all but 2 tablespoons bacon grease from the skillet. Season chicken with salt and pepper and cook in the same skillet until well browned and cooked through, 12-15 minutes. Transfer to a plate to cool.
-  
   5. **Assemble the salad:** Slice the eggs and shred or slice the cooled chicken. Arrange lettuce in a large serving bowl and toss with half the dressing. Place chicken in the center, with tomatoes on one side and eggs on the other. Arrange avocado next to eggs and blue cheese next to tomatoes. Sprinkle bacon in the center. Drizzle with remaining dressing and sprinkle with chives.
 
 notes: |

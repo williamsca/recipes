@@ -47,4 +47,7 @@ instructions: |
      - remaining cheese mix
      - 1 cup mozzarella
      - remaining noodles, meat sauce, mozzarella
+
+notes: |
+  - Serve alongside salad with [italian dressing](/recipes/recipes/dressing-italian/) and [garlic bread](/recipes/recipes/bread-garlic/).
 ---
