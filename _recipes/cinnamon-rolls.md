@@ -17,6 +17,7 @@ ingredients: |
   - 1 egg plus 1 egg yolk at room temperature
   - 1/4 cup butter, melted
   - 3 cups (360g) bread flour, plus more for dusting
+  - 3/4 tsp salt
 
   **Filling**
   - 2/3 cup dark brown sugar
