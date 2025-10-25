@@ -26,11 +26,12 @@ ingredients: |
   * 2 tsp cumin
   * 1 tsp cayenne (optional)
   * 2 bay leaves
-  * 2 tbsp sugar
-  * Salt and pepper
+  * 2 Tbsp sugar
+  * salt and pepper
+  * water
   * For garnish: cilantro, green onions, sour cream, grated cheese, avocado
 instructions: |
   1. In a large skillet, saute onions, peppers, garlic and meat with a teaspoon each of salt and pepper. Cook until meat is cooked through.
-  2. Add meat mixture, along with remaining ingredients, to a large crock pot. Set on low for 8 hours.
+  2. Add meat mixture, along with remaining ingredients, to a large crock pot. Add water to cover the beans, one to two cups. Set on low for 8 hours.
 
 ---
