@@ -19,15 +19,16 @@ ingredients: |
   - 1 stick butter, melted
 
 instructions: |
-  1. Dissolve yeast in warm water.
-  2. Combine flour, brown sugar, and salt and add to yeast mixture.
-  3. Knead gently for 5 minutes.
-  4. Let rise for 30-60 minutes.
-  5. Roll dough into pretzels or sticks.
-  6. Let rise again briefly.
-  7. Dip each pretzel in a solution of baking soda and water.
-  8. Place on greased baking sheet. Bake until golden brown.
-  9. Brush with melted butter after baking.
+  1. Preheat oven to 375F.
+  2. Dissolve yeast in warm water.
+  3. Combine flour, brown sugar, and salt and add to yeast mixture.
+  4. Knead gently for 5 minutes.
+  5. Let rise for 30-60 minutes.
+  6. Roll dough into pretzels or sticks.
+  7. Let rise again briefly.
+  8. Dip each pretzel in a solution of baking soda and water.
+  9. Place on greased baking sheet. Bake until golden brown.
+  10. Brush with melted butter after baking.
 
 notes: |
   - Mix 1/2 cup brown sugar and 1/4 cup cinnamon to sprinkle on after baking.
