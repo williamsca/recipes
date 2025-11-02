@@ -69,7 +69,7 @@ instructions: |
      - remaining cheese mix
      - 1 cup mozzarella
      - remaining noodles, meat sauce, mozzarella
- 5. For half recipe, using a 9x13 ungreased baking dish, layer in the following order:
+     -For half recipe, using a 9x13 ungreased baking dish, layer in the following order:
      - 1/2 cup meat sauce
      - 2 noodles
      - all provolone slices
