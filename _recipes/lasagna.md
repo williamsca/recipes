@@ -53,6 +53,7 @@ ingredients: |
   - 6 lasagna noodles, cooked and drained
   - 3 slices provolone cheese
   - 1.5 cups shredded mozzarella cheese
+
 instructions: |
   1. In a large skillet, cook beef until no longer pink; drain. Add remaining meat sauce ingredients. Bring to a boil. Reduce heat; simmer uncovered for 1 hour, stirring occasionally.
   2. In a large bowl, combine cheese mix ingredients.
