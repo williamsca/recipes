@@ -8,6 +8,7 @@ category: Dinner
 protein: vegetarian
 
 ingredients: |
+
 Kosher salt and black pepper
 6 tablespoons extra-virgin olive oil
 1 (15-ounce) can chickpeas, rinsed and patted dry
