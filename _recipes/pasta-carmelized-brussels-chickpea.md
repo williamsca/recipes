@@ -1,4 +1,4 @@
----
+--
 layout: recipe
 title: Caramelized Brussels Sprouts Pasta With Toasted Chickpeas
 cook_time: 20 minutes
@@ -6,8 +6,8 @@ servings: 4
 source: NYT
 category: Dinner
 protein: vegetarian
-ingredients: |
 
+ingredients: |
 Kosher salt and black pepper
 6 tablespoons extra-virgin olive oil
 1 (15-ounce) can chickpeas, rinsed and patted dry
@@ -29,3 +29,4 @@ Add the butter, garlic and 2 tablespoons of the oil to the Dutch oven and cook, 
 Meanwhile, cook pasta according to package directions in the boiling water until al dente. Drain, reserving 2 cups of the pasta water.
 Add the pasta, 1 cup reserved pasta water, about ¾ of the toasted chickpeas and the remaining 2 tablespoons oil to the Dutch oven. Stir in the Parmesan, capers, lemon juice, red-pepper flakes and half the chives until well incorporated and saucy, 1 to 2 minutes. Season with salt and pepper. Add more pasta water if a thinner sauce is desired.
 Divide pasta among bowls. Top with remaining toasted chickpeas and chives. Garnish with more black pepper and Parmesan.
+---
