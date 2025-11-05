@@ -9,18 +9,18 @@ protein: vegetarian
 
 ingredients: |
 
-	- Kosher salt and black pepper
-	- 6 tablespoons extra-virgin olive oil
-	- 1 (15-ounce) can chickpeas, rinsed and patted dry
-	- 2 tablespoons unsalted butter
-	- 3 garlic cloves, thinly sliced
-	- 1 pound brussels sprouts, trimmed and very thinly sliced (about 5 tightly packed cups)
-	- 8 ounces dried tagliatelle pasta
-	- ½ cup freshly grated Parmesan (about 1½ ounces), plus more for serving
-	- 2 tablespoons drained capers
-	- 2 tablespoons lemon juice
-	- ½ teaspoon red-pepper flakes
-	- ¼ cup chopped fresh chives
+    - Kosher salt and black pepper
+    - 6 tablespoons extra-virgin olive oil
+    - 1 (15-ounce) can chickpeas, rinsed and patted dry
+    - 2 tablespoons unsalted butter
+    - 3 garlic cloves, thinly sliced
+    - 1 pound brussels sprouts, trimmed and very thinly sliced (about 5 tightly packed cups)
+    - 8 ounces dried tagliatelle pasta
+    - ½ cup freshly grated Parmesan (about 1½ ounces), plus more for serving
+    - 2 tablespoons drained capers
+    - 2 tablespoons lemon juice
+    - ½ teaspoon red-pepper flakes
+    - ¼ cup chopped fresh chives
 
 instructions: |
 
