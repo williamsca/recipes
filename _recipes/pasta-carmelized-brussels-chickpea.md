@@ -29,5 +29,5 @@ instructions: |
   3. Add the butter, garlic and 2 tablespoons of the oil to the Dutch oven and cook, stirring, until fragrant, about 1 minute. Add brussels sprouts, season with salt and pepper, and cook, stirring occasionally, until tender and lightly caramelized, about 10 minutes.
   4. Meanwhile, cook pasta according to package directions in the boiling water until al dente. Drain, reserving 2 cups of the pasta water.
   5. Add the pasta, 1 cup reserved pasta water, about ¾ of the toasted chickpeas and the remaining 2 tablespoons oil to the Dutch oven. Stir in the Parmesan, capers, lemon juice, red-pepper flakes and half the chives until well incorporated and saucy, 1 to 2 minutes. Season with salt and pepper. Add more pasta water if a thinner sauce is desired.
-  6. Divide pasta among bowls. Top with remaining toasted chickpeas and chives. Garnish with more black pepper and Parmesan.**
+  6. Divide pasta among bowls. Top with remaining toasted chickpeas and chives. Garnish with more black pepper and Parmesan.
 ---
