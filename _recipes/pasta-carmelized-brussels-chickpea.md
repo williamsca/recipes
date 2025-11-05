@@ -1,4 +1,4 @@
---
+---
 layout: recipe
 title: Caramelized Brussels Sprouts Pasta With Toasted Chickpeas
 cook_time: 20 minutes
