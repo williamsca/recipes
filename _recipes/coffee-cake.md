@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Cofee Cake
+title: Coffee Cake
 description: 
 prep_time: 15 minutes
 cook_time: 45 minutes

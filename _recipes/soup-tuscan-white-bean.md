@@ -8,25 +8,25 @@ servings: 4
 category: Soup
 source: Choosing Chia
 
-ingredients: |
-  - 2 tbsp olive oil
-  - 3 shallots, finely chopped
-  - 2 garlic cloves, chopped
-  - 1 large carrot, chopped
-  - 1 large celery stalk, chopped
-  - 1 19oz can cannellini beans
-  - 1 sprig rosemary
-  - 1/2 tsp herbs de provence (can sub some dried thyme or oregano)
-  - 1/2 tsp red chili flakes (optional for spice)
-  - 1 litre low-sodium vegetable broth
+ingredients (doubled from original): |
+  - 4 tbsp olive oil
+  - 6 shallots, finely chopped
+  - 4 garlic cloves, chopped
+  - 2 large carrots, chopped
+  - 2 large celery stalks, chopped
+  - 2 19oz cans cannellini beans (or other white bean)
+  - 2 sprigs rosemary
+  - 1 tsp herbs de provence (can sub some dried thyme or oregano)
+  - 1 tsp red chili flakes (optional for spice)
+  - 2 L low-sodium vegetable broth (or 8 cups water plus better than boullion)
   - Salt & pepper to taste
-  - 1 cup kale, stems removed and chopped
+  - 2 cups kale, stems removed and chopped
 
 instructions: |
   1. Heat the olive oil in a large pot then add the shallots and a pinch of salt, letting cook on medium heat for 1-2 minutes, then add the garlic and cook for another minute.
   2. Add the chopped carrots and celery and cook on medium-high heat for 5 minutes until the veggies are tender.
   3. Add the cannellini beans, sprig of rosemary, herbs de provence, chili flakes, and vegetable broth. Bring everything to a boil, then reduce heat to low and cover to let simmer for 15 minutes.
-  4. Remove the sprig of rosemary and transfer 1/3 of the soup to a blender (can alternatively use a hand blender) and blend until smooth. Add back to the soup and mix together.
+  4. Remove the sprig of rosemary and transfer 1/3 of the soup to a blender (can alternatively use a hand blender) and blend until smooth. Add back to the soup and mix together. Pregnant Kaitlyn might be devastated if you skip this step.
   5. Add the kale to the soup and stir until wilted.
   6. Serve this soup with some freshly chopped herbs and a sprinkle of chili flakes if desired.
 

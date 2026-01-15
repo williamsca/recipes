@@ -23,6 +23,7 @@ instructions: |
   3. Sprinkle with the sesame seeds, furikake or scallions, if using.
 
 notes: |
+  - Can be served with cucumber slices.
   - You can adjust the seasonings to your taste: Use as much or as little soy sauce as you'd like for a savory accent.
   - You can lean into the nuttiness of this rice bowl by sowing the top with toasted sesame seeds, or amp up the savoriness with furikake or scallions.
 ---

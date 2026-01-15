@@ -26,11 +26,13 @@ ingredients: |
   * 2 tsp cumin
   * 1 tsp cayenne (optional)
   * 2 bay leaves
-  * 2 tbsp sugar
-  * Salt and pepper
-  * For garnish: cilantro, green onions, sour cream, grated cheese, avocado
+  * 2 Tbsp sugar
+  * salt and pepper
+  * water (if using dutch oven)
+  * For garnish: cilantro, green onions, sour cream, grated cheese, avocado, corn bread, tortilla chips
 instructions: |
   1. In a large skillet, saute onions, peppers, garlic and meat with a teaspoon each of salt and pepper. Cook until meat is cooked through.
-  2. Add meat mixture, along with remaining ingredients, to a large crock pot. Set on low for 8 hours.
+  2. Combine ingredients in a large crock pot. Set on low for 8 hours or high for 4 hours. Alternatively, bring to a boil and then simmer in dutch oven for at least 1-2 hours or up to 8 hours.
+  3. If using dutch oven, add water to cover the beans, one to two cups. 
 
 ---
