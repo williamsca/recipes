@@ -9,6 +9,7 @@ servings: 12
 category: Dessert
 effort: medium
 duration: hours
+flavor: apple
 source: Sally's Baking Addiction
 
 ingredients: |
