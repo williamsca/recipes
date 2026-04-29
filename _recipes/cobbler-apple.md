@@ -15,7 +15,7 @@ source: Sally's Baking Addiction
 ingredients: |
   **For the apples:**
   - 2 tablespoons unsalted butter
-  - 8 cups peeled and sliced apples (1/4-inch slices; about 7 apples)
+  - 8 cups peeled and sliced apples (1/4-inch slices; about 7 apples), such as Honeycrisp, Granny Smith or Gala
   - 3 tablespoons packed light or dark brown sugar
   - 1 tablespoon fresh squeezed lemon juice
   - 1 tablespoon all-purpose flour
