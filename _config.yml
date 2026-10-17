@@ -24,3 +24,17 @@ defaults:
       type: "recipes"
     values:
       layout: "recipe"
+
+# Jekyll 3 replaces (not extends) its default exclude list, so the defaults are repeated here.
+exclude:
+  - test
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
