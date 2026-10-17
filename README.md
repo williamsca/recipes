@@ -1,6 +1,30 @@
 # recipes
 Family recipes
 
+## Recipe tests
+
+Run the complete suite with `bundle exec ruby test/run.rb` from the repository
+root (run `bundle install` first if the site's Ruby dependencies are not installed).
+No website build is needed. The content checks use Kramdown, the site's existing
+Markdown parser, and read recipe source files directly.
+
+The suite checks:
+
+- Nonempty string fields: `title`, `category`, `ingredients`, and `instructions`.
+  Timing, servings, source, and other metadata remain optional.
+- Exact category names from `_data/categories.yml`.
+- Empty unordered, numbered, and nested list items in recipe text, including
+  ingredients, instructions, and notes. Indented continuation text is allowed.
+- Instructions containing preparation text rather than only headings or empty lists.
+- Local link and image destinations in recipe text, including reference links and
+  HTML `href`/`src` attributes. Destinations are resolved against source recipes,
+  pages, and assets using the configured base URL and recipe permalink; `_site`
+  is never consulted. Query strings and fragments do not affect destination checks.
+  Fragment anchors and external URL availability are not checked; tests run offline.
+- Ingredient unit style, described below. Equivalent amounts are not compared.
+
+Run only the new content checks with `bundle exec ruby test/recipe_content_test.rb`.
+
 ## Ingredient unit tests
 
 Run `ruby test/ingredient_units_test.rb` from the repository root. The tests use

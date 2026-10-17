@@ -32,7 +32,7 @@ ingredients: |
   - 9 lasagna noodles, cooked and drained
   - 6 slices provolone cheese
   - 3 cups shredded mozzarella cheese
-  - 
+
   ### Half Meat Sauce
   - 1 lb ground beef
   - 12 oz tomato sauce
