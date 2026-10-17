@@ -7,10 +7,11 @@ temperature: 350°F
 servings: 12
 source: BrownEyedBaker
 category: Dessert
+icon: cake
 flavor: pumpkin
 
 ingredients: |
-  **Cupcakes**
+  ### Cupcakes
   - 1 1/3 cups all-purpose flour
   - 1 tsp baking powder
   - 1 tsp baking soda
@@ -24,9 +25,9 @@ ingredients: |
   - 1/2 cup vegetable oil
   - 2 eggs
 
-  **Frosting**
+  ### Frosting
   - 1 cup unsalted butter, room temp.
-  - 8 oz. cream cheese, room temp.
+  - 8 oz cream cheese, room temp.
   - 2 1/2 tsp vanilla extract
   - 2-4 cups powdered sugar
 

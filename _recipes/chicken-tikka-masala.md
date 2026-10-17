@@ -6,34 +6,35 @@ prep_time: 5 minutes
 cook_time: 1 hour 10 minutes
 servings: 6
 category: Dinner
+icon: skillet
 protein: chicken
 source: 40 Aprons
 
 ingredients: |
-  **Marinade:**
-  - 2 large boneless and skinless chicken breasts, diced (about 1.5 pounds)
+  ### Marinade
+  - 2 large boneless and skinless chicken breasts, diced (about 1.5 lb)
   - 1 cup plain full-fat yogurt
-  - 1 teaspoon turmeric
-  - 2 teaspoons garam masala
-  - 1 tablespoon lemon juice (about half a lemon)
-  - 2 teaspoons black pepper
-  - 1/4 teaspoon dried ginger
+  - 1 tsp turmeric
+  - 2 tsp garam masala
+  - 1 tbsp lemon juice (about half a lemon)
+  - 2 tsp black pepper
+  - 1/4 tsp dried ginger
 
-  **For the sauce:**
-  - 4 tablespoons ghee or butter (1/4 cup)
+  ### For the sauce
+  - 4 tbsp ghee or butter (1/4 cup)
   - 1 medium white onion, diced
   - 1-2 serrano chiles, minced (see notes for heat level)
   - 5 garlic cloves, minced
-  - 1 1/2 tablespoons fresh ginger, grated
-  - 3 1/2 teaspoons garam masala
-  - 1 teaspoon paprika
-  - 1 15-ounce can tomato sauce
+  - 1 1/2 tbsp fresh ginger, grated
+  - 3 1/2 tsp garam masala
+  - 1 tsp paprika
+  - 1 15-oz can tomato sauce
   - 1 green bell pepper, deseeded and sliced into strips
-  - 1 tablespoon dried fenugreek leaves
+  - 1 tbsp dried fenugreek leaves
   - Salt to taste
   - 2 cups heavy cream or half-and-half
 
-  **For serving:**
+  ### For serving
   - Basmati rice
   - Naan
   - Fresh cilantro, chopped
@@ -46,7 +47,7 @@ instructions: |
   5. **Finish the Dish:** Simmer sauce for 30 minutes on medium-low heat or until thick and more like a paste than a sauce. Add the heavy cream and stir until very smooth. Taste and correct seasonings. Add chicken, stir well, and serve over basmati rice with naan. Top with plenty of chopped cilantro.
 
 notes: |
-  **Heat Levels:**
+  ### Heat Levels
   - Mild: 1 serrano chile, seeded
   - Medium: 1 serrano chile, not seeded
   - Hot: 2 serrano chiles, not seeded

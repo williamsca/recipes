@@ -7,31 +7,30 @@ cook_time: 1 hour
 temperature: 350°F
 servings: 12
 category: Dessert
-effort: medium
-duration: hours
+icon: cobbler
 flavor: apple
 source: Sally's Baking Addiction
 
 ingredients: |
-  **For the apples:**
-  - 2 tablespoons unsalted butter
+  ### For the apples
+  - 2 tbsp unsalted butter
   - 8 cups peeled and sliced apples (1/4-inch slices; about 7 apples), such as Honeycrisp, Granny Smith or Gala
-  - 3 tablespoons packed light or dark brown sugar
-  - 1 tablespoon fresh squeezed lemon juice
-  - 1 tablespoon all-purpose flour
-  - 1½ teaspoons ground cinnamon
-  - ¼ teaspoon ground allspice
-  - ¼ teaspoon ground nutmeg
+  - 3 tbsp packed light or dark brown sugar
+  - 1 tbsp fresh squeezed lemon juice
+  - 1 tbsp all-purpose flour
+  - 1½ tsp ground cinnamon
+  - ¼ tsp ground allspice
+  - ¼ tsp ground nutmeg
 
-  **For the topping:**
-  - 6 tablespoons unsalted butter, melted
+  ### For the topping
+  - 6 tbsp unsalted butter, melted
   - 1 cup granulated sugar
   - 1 cup buttermilk
-  - 2 teaspoons pure vanilla extract
+  - 2 tsp pure vanilla extract
   - 1¾ cups all-purpose flour (spooned & leveled)
-  - 2 teaspoons baking powder
-  - ½ teaspoon salt
-  - 1 tablespoon granulated sugar + ½ teaspoon cinnamon, for sprinkling (optional)
+  - 2 tsp baking powder
+  - ½ tsp salt
+  - 1 tbsp granulated sugar + ½ tsp cinnamon, for sprinkling (optional)
 
 instructions: |
   1. Preheat oven to 350°F. Lightly grease a 9×13-inch baking pan.

@@ -5,6 +5,7 @@ prep_time: 15 minutes
 cook_time: 60 minutes
 servings: 4
 category: Dinner
+icon: baking-dish
 protein: chicken
 temperature: 400°F
 source: 
@@ -13,8 +14,8 @@ ingredients: |
   - 1 spaghetti squash
   - Olive oil
   - Salt and pepper
-  - 1 c panko breadcrumbs
-  - 1/2 c parmesan cheese, plus more for topping
+  - 1 cup panko breadcrumbs
+  - 1/2 cup parmesan cheese, plus more for topping
   - 1 tsp oregano
   - 1 tsp garlic powder
   - 1/2 tsp salt

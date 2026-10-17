@@ -6,6 +6,7 @@ prep_time: 15 minutes
 cook_time: 35 minutes
 servings: 4-6
 category: Lunch
+icon: kettle
 protein: vegetarian
 
 ingredients: |

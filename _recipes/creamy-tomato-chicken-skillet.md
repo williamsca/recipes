@@ -6,19 +6,20 @@ prep_time: 15 minutes
 cook_time: 25 minutes
 servings: 4
 category: Dinner
+icon: skillet
 protein: chicken
 
 ingredients: |
-  - 4 boneless skinless chicken breasts, (about 1½ pounds)
-  - 1 teaspoon kosher salt
-  - 1 ½ tablespoons extra-virgin olive oil
-  - 2 tablespoons tomato paste
+  - 4 boneless skinless chicken breasts, (about 1½ lb)
+  - 1 tsp kosher salt
+  - 1 ½ tbsp extra-virgin olive oil
+  - 2 tbsp tomato paste
   - 3 cloves garlic, minced
-  - 1 teaspoon fennel seeds
-  - ¼ teaspoon crushed red pepper flakes, (optional)
-  - 1 (14-ounce) can crushed tomatoes
+  - 1 tsp fennel seeds
+  - ¼ tsp crushed red pepper flakes, (optional)
+  - 1 (14-oz) can crushed tomatoes
   - 1 cup heavy cream
-  - ½ teaspoon freshly cracked black pepper
+  - ½ tsp freshly cracked black pepper
   - ½ cup grated Parmesan cheese, plus more for serving
   - 4 cups packed kale, tough stems discarded and leaves roughly chopped
   - ¼ cup basil leaves, thinly sliced

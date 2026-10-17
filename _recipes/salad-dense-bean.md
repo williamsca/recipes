@@ -4,10 +4,11 @@ title: Dense Bean Salad
 servings: 4
 source:
 category: Lunch
+icon: salad
 protein: vegetarian
 
 ingredients: |
-  **For the dressing:**
+  ### For the dressing
   - zest and juice of 1 lemon
   - 1/2 tsp Dijon mustard
   - 1/4 cup extra-virgin olive oil
@@ -15,7 +16,7 @@ ingredients: |
   - oregano
   - salt and pepper
 
-  **For the salad:**
+  ### For the salad
   - 2 cans (28 oz) chickpeas, drained and rinsed
   - 1 can (14 oz) cannellini beans, drained and rinsed
   - 1 cucumber, diced

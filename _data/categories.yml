@@ -1,0 +1,23 @@
+# Order here is the order on the home page and in the header nav.
+- name: Breakfast
+  slug: breakfast
+  icon: pancakes
+- name: Dinner
+  slug: dinner
+  icon: plate
+- name: Soup
+  slug: soup
+  icon: kettle
+- name: Lunch
+  slug: lunch
+  icon: salad
+- name: Fika
+  slug: fika
+  icon: fika
+  blurb: Everybody needs a Swedish fika
+- name: Dessert
+  slug: dessert
+  icon: cake
+- name: Drinks
+  slug: drinks
+  icon: drink

@@ -8,14 +8,15 @@ cook_time: 12 minutes
 temperature: 425°F
 servings: 6
 category: Breakfast
+icon: bread
 source: Kristi Terasa
 
 ingredients: |
-  - 2 cups all-purpose flour (250g)
-  - 1 Tablespoon baking powder
-  - 1 Tablespoon granulated sugar
-  - 1 teaspoon salt
-  - 6 Tablespoons unsalted butter, very cold (unsalted European butter is ideal)
+  - 2 cups all-purpose flour (250 g)
+  - 1 tbsp baking powder
+  - 1 tbsp granulated sugar
+  - 1 tsp salt
+  - 6 tbsp unsalted butter, very cold (unsalted European butter is ideal)
   - ¾ cup whole milk (buttermilk or 2% milk will work)
 
 instructions: |

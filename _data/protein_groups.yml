@@ -1,0 +1,16 @@
+# Filter buttons on the Dinner and Lunch lists; `proteins` are the values used in recipe front matter.
+- name: chicken
+  slug: chicken
+  proteins: [chicken]
+- name: beef
+  slug: beef
+  proteins: [beef]
+- name: fish
+  slug: fish
+  proteins: [salmon, tuna]
+- name: pork & sausage
+  slug: pork
+  proteins: [pork, sausage]
+- name: vegetarian
+  slug: vegetarian
+  proteins: [vegetarian]

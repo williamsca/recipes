@@ -2,6 +2,7 @@
 layout: recipe
 title: Caramelized Shallot Pasta
 category: Dinner
+icon: pasta
 servings: 6
 prep_time: 10 minutes
 cook_time: 30 minutes
@@ -13,9 +14,9 @@ ingredients: |
   - 6 large shallots, very thinly sliced
   - 5 garlic cloves, 4 thinly sliced, 1 finely chopped
   - Kosher salt and freshly ground black pepper
-  - 1 teaspoon red pepper flakes, plus more to taste
-  - 1 (2-ounce) can anchovy fillets (about 12), drained
-  - 1 (4.5-ounce) tube or (6-ounce) can of tomato paste (about 1/2 to 3/4 cup)
+  - 1 tsp red pepper flakes, plus more to taste
+  - 1 (2-oz) can anchovy fillets (about 12), drained
+  - 1 (4.5-oz) tube or (6-oz) can of tomato paste (about 1/2 to 3/4 cup)
   - 1 lb pasta (bucatini, perhaps)
   - 1 cup parsley, leaves and tender stems, finely chopped
   - Flaky sea salt

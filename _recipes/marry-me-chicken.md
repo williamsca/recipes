@@ -6,21 +6,22 @@ prep_time: 15 minutes
 cook_time: 30 minutes
 servings: 4
 category: Dinner
+icon: skillet
 protein: chicken
 
 ingredients: |
-  - 4 boneless, skinless, chicken breasts, about 2 pounds
-  - 1 ½ teaspoons kosher salt
-  - 2 tablespoons extra-virgin olive oil
+  - 4 boneless, skinless, chicken breasts, about 2 lb
+  - 1 ½ tsp kosher salt
+  - 2 tbsp extra-virgin olive oil
   - 3 garlic cloves, minced
   - 1 cup heavy cream
   - ½ cup chicken stock
-  - 1 teaspoon chicken flavor "Better Than Bouillon", or 1 chicken bouillon cube
+  - 1 tsp chicken flavor "Better Than Bouillon", or 1 chicken bouillon cube
   - ½ cup freshly grated Parmesan cheese
-  - 1 (7-ounce) jar sun-dried tomatoes, drained and roughly chopped
-  - 1 teaspoon Italian seasoning
-  - ½ teaspoon freshly cracked black pepper
-  - ½ teaspoon red pepper flakes (optional)
+  - 1 (7-oz) jar sun-dried tomatoes, drained and roughly chopped
+  - 1 tsp Italian seasoning
+  - ½ tsp freshly cracked black pepper
+  - ½ tsp red pepper flakes (optional)
   - ¼ cup thinly sliced fresh basil leaves
   - Cooked pasta or mashed potatoes, for serving (optional)
 

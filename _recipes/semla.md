@@ -7,14 +7,15 @@ cook_time: 8-10 minutes
 temperature: 410°F
 servings: 14
 category: Fika
+icon: fika
 
 ingredients: |
-  **Dough - predough**
+  ### Dough - predough
   - 0.845 cups milk
   - 1.69 cups flour
-  - 25g yeast
+  - 25 g yeast
 
-  **Add to the forefront**
+  ### Add to the forefront
   - 1.27 cups flour
   - 1 egg
   - 0.5 tsp salt
@@ -22,13 +23,13 @@ ingredients: |
   - 0.88 sticks butter, room temperature
   - 0.423 cups sugar
 
-  **Almond pulp**
-  - 200g peeled almonds
+  ### Almond pulp
+  - 200 g peeled almonds
   - 1 cup sugar
   - a little water
 
-  **Filling**
-  - 400g almond pulp
+  ### Filling
+  - 400 g almond pulp
   - 1 tbsp cardamom
   - 5 egg yolks
   - 0.423 cups sugar
@@ -37,7 +38,7 @@ ingredients: |
   - 1 cup whole milk
   - 1 tbsp unsalted butter
 
-  **Topping**
+  ### Topping
   - whipped cream
   - powdered sugar
 

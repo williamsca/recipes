@@ -7,9 +7,10 @@ prep_time: 90 minutes
 cook_time: X minutes
 servings: 4
 category: Fika
+icon: bread
 
 ingredients: |
-  - 2 pcks yeast or 2 T instant yeast
+  - 2 pcks yeast or 2 tbsp instant yeast
   - 1 1/2 cup warm water
   - 4 cups all-purpose flour
   - 1/2 cup brown sugar

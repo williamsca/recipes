@@ -4,10 +4,11 @@ title: Chipotle Bowl
 servings: 8
 source: Jamie Williams
 category: Dinner
+icon: bowl
 protein: chicken
 
 ingredients: |
-  **Cilantro-Lime Rice**
+  ### Cilantro-Lime Rice
   - 2 cups basmati rice
   - 4 cups water
   - 1 tsp salt
@@ -18,7 +19,7 @@ ingredients: |
   - cumin to taste
   - pepper to taste
 
-  **Dressing**
+  ### Dressing
   - 6 tbsp red wine vinegar
   - 1/4 cup honey
   - 3/4 cup vegetable oil
@@ -28,7 +29,7 @@ ingredients: |
   - 2 chipotle peppers in adobo sauce
   - sugar to taste
 
-  **Toppings**
+  ### Toppings
   - frozen corn
   - black beans
   - shredded cheese

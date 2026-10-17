@@ -7,23 +7,22 @@ temperature: 350°F
 servings: 8
 source: Southern Living
 category: Dinner
-effort: medium
-duration: hours
+icon: baking-dish
 protein: pork
 
 ingredients: |
-  - 12 oz. uncooked ziti pasta
-  - 4 oz. pancetta or bacon, diced
+  - 12 oz uncooked ziti pasta
+  - 4 oz pancetta or bacon, diced
   - 1 large onion, chopped
   - 3 garlic cloves, chopped
-  - 1 lb. ground Italian sausage
+  - 1 lb ground Italian sausage
   - 1 cup dry red wine
-  - 1 (28-oz.) can crushed tomatoes
+  - 1 (28-oz) can crushed tomatoes
   - 1/2 cup torn fresh basil, firmly packed
-  - 1/2 tsp. kosher salt
-  - 1/2 tsp. dried crushed red pepper
+  - 1/2 tsp kosher salt
+  - 1/2 tsp dried crushed red pepper
   - 1 cup ricotta cheese
-  - 1 (8-oz.) pkg. shredded mozzarella cheese, divided
+  - 1 (8-oz) pkg. shredded mozzarella cheese, divided
   - Vegetable cooking spray
   - 1/2 cup grated Parmesan cheese
 

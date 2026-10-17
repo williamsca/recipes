@@ -3,75 +3,29 @@ layout: default
 title: Williams Recipes
 ---
 
-<div class="category-grid">
-  <a href="{{ '/categories/breakfast' | relative_url }}" class="category-card breakfast">
-    <div class="category-icon">
-      🍳  
-    </div>
-    <h2>Breakfast</h2>
-    <div class="category-description">
-      
-    </div>
-  </a>
+<header class="title-page">
+  <p class="title-page-kicker">favorite family recipes</p>
+  <h1 class="title-page-title">a Cookbook<br>for Kaitlyn</h1>
+  {% include herringbone.html %}
+</header>
 
-  <a href="{{ '/categories/dinner' | relative_url }}" class="category-card dinner">
-    <div class="category-icon">
-      🍽️
-    </div>
-    <h2>Dinner</h2>
-    <div class="category-description">
-      
-    </div>
-  </a>
+<section class="contents">
+  <h2 class="ruled-heading">Contents</h2>
+  <ul>
+    {% for cat in site.data.categories %}
+    {% assign count = site.recipes | where: "category", cat.name | size %}
+    <li>
+      <a href="{{ '/categories/' | append: cat.slug | relative_url }}">
+        {% include recipe-icon.html name=cat.icon size=44 %}
+        <span class="contents-name">{{ cat.name }}{% if cat.blurb %}<span class="contents-blurb">{{ cat.blurb }}</span>{% endif %}</span>
+        <span class="contents-count">{{ count }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
-  <a href="{{ '/categories/soup' | relative_url }}" class="category-card soup">
-    <div class="category-icon">
-      🍲
-    </div>
-    <h2>Soup</h2>
-    <div class="category-description">
-      
-    </div>
-  </a>
-
-  <a href="{{ '/categories/fika' | relative_url }}" class="category-card fika">
-    <div class="category-icon">
-      ☕
-    </div>
-    <h2>Fika</h2>
-    <div class="category-description">
-      Everybody needs a Swedish fika
-    </div>
-  </a>
-
-  <a href="{{ '/categories/dessert' | relative_url }}" class="category-card dessert">
-    <div class="category-icon">
-      🧁
-    </div>
-    <h2>Desserts</h2>
-    <div class="category-description">
-      
-    </div>
-  </a>
-
-  <a href="{{ '/categories/lunch' | relative_url }}" class="category-card lunch">
-    <div class="category-icon">
-      🥪
-    </div>
-    <h2>Lunch</h2>
-    <div class="category-description">
-      
-    </div>
-  </a>
-
-  <a href="{{ '/categories/drinks' | relative_url }}" class="category-card drinks">
-    <div class="category-icon">
-      🍹
-    </div>
-    <h2>Drinks</h2>
-    <div class="category-description">
-      
-    </div>
-  </a>
-  
-</div>
+<aside class="letters-card">
+  <p>“Here are a few of the recipes that we’ve cooked together since we met…”</p>
+  <a href="{{ '/about' | relative_url }}">read the letters, 2017–2025 ›</a>
+</aside>

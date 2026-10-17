@@ -7,16 +7,17 @@ cook_time: 45 minutes
 temperature: 350°F
 servings: 12
 category: Breakfast
+icon: cake
 source: Freda Lapp
 
 ingredients: |
-  **Cake**
+  ### Cake
   - 1 box yellow cake mix
   - 1 3.4 oz box instant vanilla pudding mix
   - 2 eggs
   - 1 1/3 cups water
   - 2 tbsp vegetable oil
-  **Topping**
+  ### Topping
   - 1 stick butter, melted
   - 1 cup flour
   - 1 cup brown sugar

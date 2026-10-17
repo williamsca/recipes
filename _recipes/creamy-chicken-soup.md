@@ -5,23 +5,24 @@ prep_time: 20 minutes
 cook_time: 25 minutes
 servings: 6
 category: Soup
+icon: kettle
 temperature: 
 source: The Modern Proper
 protein: chicken
 
 ingredients: |
-  - 2 tablespoons olive oil
+  - 2 tbsp olive oil
   - 1 small yellow onion, diced, about 1 cup
   - 1 medium carrot, diced, 3/4 cup
   - 2 celery ribs, diced, ¾ cup
   - 3 cloves garlic, minced
-  - ¼ cup unsalted butter (4 Tbsp)
+  - ¼ cup unsalted butter (4 tbsp)
   - ¼ cup all-purpose flour
   - 4 cups chicken stock or broth
   - 1 cup milk, whole milk preferably
-  - ½ teaspoon sea salt, plus more to taste
-  - ¼ teaspoon freshly cracked black pepper
-  - 1 tablespoon minced fresh dill
+  - ½ tsp sea salt, plus more to taste
+  - ¼ tsp freshly cracked black pepper
+  - 1 tbsp minced fresh dill
   - 3 cups shredded cooked chicken, from a rotisserie or 2 large chicken breasts, poached in water
   - ⅓ cup grated fresh Parmesan cheese
   - 4 green onions, chopped, for garnish

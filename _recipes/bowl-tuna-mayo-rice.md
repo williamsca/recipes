@@ -6,14 +6,15 @@ prep_time: 5 minutes
 cook_time: 0 minutes
 servings: 1
 category: Lunch
+icon: bowl
 protein: tuna
 source: Eric Kim
 
 ingredients: |
-  - 1 (5-ounce) can tuna (preferably any variety stored in oil), well drained
-  - 2 tablespoons mayonnaise
-  - 1 teaspoon toasted sesame oil
-  - ½ teaspoon soy sauce
+  - 1 (5-oz) can tuna (preferably any variety stored in oil), well drained
+  - 2 tbsp mayonnaise
+  - 1 tsp toasted sesame oil
+  - ½ tsp soy sauce
   - 1 cup cooked white rice (preferably short- or medium-grain)
   - Toasted white or black sesame seeds, furikake or chopped scallions, for topping (optional)
 

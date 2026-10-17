@@ -5,10 +5,11 @@ prep_time: 25 minutes
 cook_time: 20 minutes
 servings: 6
 category: Dinner
+icon: bowl
 protein: chicken
 
 ingredients: |
-  **Chicken**
+  ### Chicken
   - ⅓ cup full-fat plain Greek yogurt
   - ¼ cup extra virgin olive oil
   - 1 ½ lb boneless skinless chicken breasts or thighs, cubed
@@ -18,7 +19,7 @@ ingredients: |
   - 1 tbsp chopped fresh oregano
   - chili flakes, Kosher salt, and black pepper
   
-  **Bowl Components**
+  ### Bowl Components
   - 2 Persian cucumbers, chopped
   - 1 avocado, diced
   - 2 tbsp lemon juice

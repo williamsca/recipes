@@ -5,21 +5,22 @@ prep_time: 25 minutes
 cook_time: 15 minutes
 servings: 4
 category: Dinner
+icon: bowl
 protein: salmon
 
 ingredients: |
-  **Salmon**
+  ### Salmon
   - 4 (4-6 oz) salmon filets, cut into bite-size chunks
   - 6 tbsp extra virgin olive oil
   - 1 ½ tbsp chopped chipotle in adobo
-  - 2 tablespoons honey
+  - 2 tbsp honey
   - 1 tbsp tamari or soy sauce
   - kosher salt and black pepper
   - 1 tbsp apple cider vinegar
   - ½ cup fresh cilantro, chopped
   - 3 ½ cup cooked rice
 
-  **Avocado Feta Salad**
+  ### Avocado Feta Salad
   - 2 avocados, diced
   - 2 small cucumbers, chopped
   - 1 serrano or jalapeño, sliced
@@ -30,7 +31,7 @@ ingredients: |
   - 1 tbsp lemon juice
   - 1 tbsp lime juice
 
-  **Chipotle Mayo**
+  ### Chipotle Mayo
   - ½ cup mayo
   - 1 ½ tbsp chopped chipotle in adobo
   - 2 tsp honey

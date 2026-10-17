@@ -6,20 +6,21 @@ prep_time: 10 minutes
 cook_time: 20 minutes
 servings: 4
 category: Dinner
+icon: skillet
 protein: chicken
 source: Natasha Bull
 
 ingredients: |
   - 2 large chicken breasts
-  - 1/2 teaspoon garlic powder
-  - 1 teaspoon lemon pepper seasoning
-  - 1 tablespoon olive oil
-  - 1 tablespoon butter
+  - 1/2 tsp garlic powder
+  - 1 tsp lemon pepper seasoning
+  - 1 tbsp olive oil
+  - 1 tbsp butter
   - 2 cloves garlic, minced
   - 1/2 cup chicken broth
-  - 1 tablespoon lemon juice
+  - 1 tbsp lemon juice
   - 1 cup heavy/whipping cream
-  - 1 pound uncooked potato gnocchi
+  - 1 lb uncooked potato gnocchi
   - 1/2 cup freshly grated parmesan cheese
   - 2 cups (packed) fresh baby spinach
   - Salt & pepper to taste

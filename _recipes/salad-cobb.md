@@ -6,27 +6,26 @@ prep_time: 20 minutes
 cook_time: 30 minutes
 servings: 4
 category: Dinner
-effort: medium
-duration: minutes
+icon: salad
 protein: chicken
 
 ingredients: |
-  **For the dressing:**
+  ### For the dressing
   - 1 small shallot, thinly sliced into rings
-  - 3 tablespoons red-wine vinegar
+  - 3 tbsp red-wine vinegar
   - Kosher salt and ground pepper
-  - 1 tablespoon whole grain or Dijon mustard
-  - 3 tablespoons olive oil, plus more as needed
+  - 1 tbsp whole grain or Dijon mustard
+  - 3 tbsp olive oil, plus more as needed
   
-  **For the salad:**
+  ### For the salad
   - 4 large eggs
-  - 10 ounces thick-cut bacon (about 8 strips)
-  - 12 ounces boneless, skinless chicken breast
+  - 10 oz thick-cut bacon (about 8 strips)
+  - 12 oz boneless, skinless chicken breast
   - 1 head romaine lettuce, torn into bite-sized pieces
-  - 6 ounces small to medium tomatoes, sliced or quartered
+  - 6 oz small to medium tomatoes, sliced or quartered
   - 1 avocado, thinly sliced
-  - 4 ounces blue cheese, crumbled
-  - 3 tablespoons finely chopped chives
+  - 4 oz blue cheese, crumbled
+  - 3 tbsp finely chopped chives
 
 instructions: |
   1. **Make the dressing:** Cover shallot rings with vinegar and season with salt and pepper. Let sit for 5 minutes to lightly pickle. Add mustard and olive oil and whisk to blend. Season to taste.

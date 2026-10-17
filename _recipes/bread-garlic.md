@@ -5,18 +5,19 @@ prep_time: 10 minutes
 cook_time: 5 minutes
 servings: 8
 category: Dinner
+icon: bread
 temperature: Broil
 source: The Modern Proper
 protein: vegetarian
 
 ingredients: |
   - ¾ cup (1½ sticks) unsalted butter, softened
-  - 3 tablespoons minced fresh flat-leaf parsley, plus more for garnish
+  - 3 tbsp minced fresh flat-leaf parsley, plus more for garnish
   - 5 garlic cloves, minced
-  - ¾ teaspoon garlic powder
-  - ½ teaspoon sea salt (see Note)
+  - ¾ tsp garlic powder
+  - ½ tsp sea salt (see Note)
   - ¾ cup freshly grated Parmesan cheese
-  - 1 (1-pound) loaf rustic bread, French or ciabatta
+  - 1 (1-lb) loaf rustic bread, French or ciabatta
 
 instructions: |
   1. In a medium bowl, combine the butter, parsley, garlic, garlic powder, salt and half of the parmesan cheese.

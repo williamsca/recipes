@@ -7,17 +7,18 @@ cook_time: 25 minutes
 temperature: 350°F
 servings: 16
 category: Dessert
+icon: cookie
 flavor: lemon
 
 ingredients: |
-  **Shortbread crust**
+  ### Shortbread crust
   - 1 cup flour
   - 1 stick room temp. unsalted butter
   - 1/4 cup powdered sugar
   - 1/4 tsp vanilla
   - 1/4 tsp salt
 
-  **Lemon layer**
+  ### Lemon layer
   - 2 large eggs
   - 1 large egg yolk
   - 1 cup white sugar

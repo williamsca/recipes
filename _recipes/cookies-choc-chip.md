@@ -7,6 +7,7 @@ temperature: 325°F
 servings: 18
 source: Jamie Williams
 category: Dessert
+icon: cookie
 flavor: chocolate
 menu: Rich, chewy cookies with a hint of vanilla. These are perfect for any and every occasion, but they are especially good after a long walk around campus.
 

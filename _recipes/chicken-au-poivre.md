@@ -6,18 +6,19 @@ prep_time: 20 minutes
 cook_time: 50 minutes
 servings: 4-6
 category: Dinner
+icon: plate
 protein: chicken
 source: Coco Larkin Cooks
 
 ingredients: |
-  - 1 whole roasting chicken, about 4½ pounds
-  - 1 tablespoon Maldon salt, divided, for the chicken
-  - ½ teaspoon olive oil
-  - 1½ tablespoons whole peppercorns
-  - 1 teaspoon finely chopped fresh rosemary
+  - 1 whole roasting chicken, about 4½ lb
+  - 1 tbsp Maldon salt, divided, for the chicken
+  - ½ tsp olive oil
+  - 1½ tbsp whole peppercorns
+  - 1 tsp finely chopped fresh rosemary
   - 5 garlic cloves, finely chopped
   - 1 medium to large shallot, finely chopped
-  - 1 teaspoon Maldon salt, for the cream mixture
+  - 1 tsp Maldon salt, for the cream mixture
   - 2 cups heavy whipping cream
   - ½ cup dry sherry cooking wine
 

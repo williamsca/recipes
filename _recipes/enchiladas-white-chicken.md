@@ -6,24 +6,25 @@ prep_time: 15 minutes
 cook_time: 25 minutes
 servings: 5
 category: Dinner
+icon: baking-dish
 protein: chicken
 source: Kristi Terasa
 
 ingredients: |
-  **Filling:**
+  ### Filling
   - 2 cups shredded, cooked chicken (can use a store-bought rotisserie chicken)
   - 1 cup shredded Monterey Jack cheese (or mozzarella)
   - salt, pepper, Adobo seasoning, to taste
   - 10 flour tortillas (taco size)
 
-  **Sauce:**
-  - 3 Tablespoons butter
-  - 3 Tablespoons all-purpose flour
+  ### Sauce
+  - 3 tbsp butter
+  - 3 tbsp all-purpose flour
   - 2 cups chicken broth
   - 1 cup sour cream
-  - 4 ounce can diced green chiles (do not drain)
+  - 4 oz can diced green chiles (do not drain)
 
-  **Topping:**
+  ### Topping
   - 1 cup shredded Monterey Jack cheese
 
 instructions: |

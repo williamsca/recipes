@@ -3,6 +3,7 @@ layout: recipe
 title: Isaac's Marinara
 source: Isaac Mielke
 category: Dinner
+icon: pasta
 protein: vegetarian
 
 ingredients: |
@@ -18,7 +19,7 @@ ingredients: |
   - 1/2 tsp fennel seeds, crushed
   - 2 tbsp balsamic vinegar
   - 2 cups low sodium vegetable or chicken broth
-  - 3 (28-ounce) cans no-salt-added crushed tomatoes
+  - 3 (28-oz) cans no-salt-added crushed tomatoes
 
 instructions: |
   1. Heat oil in a large Dutch oven over medium heat. Add onion to pan; cook 4 minutes, stirring frequently.

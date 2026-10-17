@@ -5,21 +5,22 @@ cook_time: 20 minutes
 servings: 4
 source: NYT
 category: Dinner
+icon: pasta
 protein: vegetarian
 
 ingredients: |
 
     - Kosher salt and black pepper
-    - 6 tablespoons extra-virgin olive oil
-    - 1 (15-ounce) can chickpeas, rinsed and patted dry
-    - 2 tablespoons unsalted butter
+    - 6 tbsp extra-virgin olive oil
+    - 1 (15-oz) can chickpeas, rinsed and patted dry
+    - 2 tbsp unsalted butter
     - 3 garlic cloves, thinly sliced
-    - 1 pound brussels sprouts, trimmed and very thinly sliced (about 5 tightly packed cups)
-    - 8 ounces dried tagliatelle pasta
-    - ½ cup freshly grated Parmesan (about 1½ ounces), plus more for serving
-    - 2 tablespoons drained capers
-    - 2 tablespoons lemon juice
-    - ½ teaspoon red-pepper flakes
+    - 1 lb brussels sprouts, trimmed and very thinly sliced (about 5 tightly packed cups)
+    - 8 oz dried tagliatelle pasta
+    - ½ cup freshly grated Parmesan (about 1½ oz), plus more for serving
+    - 2 tbsp drained capers
+    - 2 tbsp lemon juice
+    - ½ tsp red-pepper flakes
     - ¼ cup chopped fresh chives
 
 instructions: |

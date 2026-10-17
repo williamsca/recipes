@@ -6,19 +6,21 @@ prep_time: 10 minutes
 cook_time: 20 minutes
 servings: 4
 category: Soup
+icon: kettle
 source: Choosing Chia
 
-ingredients (doubled from original): |
+ingredients: |
+  ### Ingredients (doubled from original)
   - 4 tbsp olive oil
   - 6 shallots, finely chopped
   - 4 garlic cloves, chopped
   - 2 large carrots, chopped
   - 2 large celery stalks, chopped
-  - 2 19oz cans cannellini beans (or other white bean)
+  - 2 19 oz cans cannellini beans (or other white bean)
   - 2 sprigs rosemary
   - 1 tsp herbs de provence (can sub some dried thyme or oregano)
   - 1 tsp red chili flakes (optional for spice)
-  - 2 L low-sodium vegetable broth (or 8 cups water plus better than boullion)
+  - 2 l low-sodium vegetable broth (or 8 cups water plus better than boullion)
   - Salt & pepper to taste
   - 2 cups kale, stems removed and chopped
 

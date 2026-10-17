@@ -2,46 +2,46 @@
 layout: default
 ---
 <article class="recipe">
-    <header class="recipe-header">
-        <h1>{{ page.title }}</h1>
-        <div class="recipe-metadata">
-            {% if page.prep_time %}
-            <span>Prep Time: {{ page.prep_time }}</span>
-            {% endif %}
-            {% if page.cook_time %}
-            <span>Cook Time: {{ page.cook_time }}</span>
-            {% endif %}
-            {% if page.temperature %}
-            <span>Temperature: {{ page.temperature }}</span>
-            {% endif %}
-            {% if page.servings %}
-            <span>Servings: {{ page.servings }}</span>
-            {% endif %}
-        </div>
-    </header>
+    <nav class="breadcrumb">
+        <a href="{{ '/categories/' | append: page.category | downcase | relative_url }}">‹ {{ page.category | downcase }}</a>
+    </nav>
 
-    {% if page.description %}
-    <div class="recipe-description">
-        {{ page.description | markdownify }}
-    </div>
-    {% endif %}
+    <header class="recipe-header">
+        {% include recipe-icon.html recipe=page size=96 %}
+        <h1>{{ page.title }}</h1>
+        {% include herringbone.html %}
+        {% if page.description %}
+        <div class="recipe-description">
+            {{ page.description | markdownify }}
+        </div>
+        {% endif %}
+        <ul class="recipe-metadata">
+            {% if page.prep_time %}<li>prep {{ page.prep_time }}</li>{% endif %}
+            {% if page.cook_time %}<li>cook {{ page.cook_time }}</li>{% endif %}
+            {% if page.temperature %}<li>{{ page.temperature }}</li>{% endif %}
+            {% if page.servings %}<li>serves {{ page.servings }}</li>{% endif %}
+        </ul>
+        {% if page.source %}
+        <p class="recipe-source">From the kitchen of <span>{{ page.source }}</span></p>
+        {% endif %}
+    </header>
 
     <div class="recipe-content">
         <section class="ingredients">
-            <h2>Ingredients</h2>
+            <h2 class="ruled-heading">Ingredients</h2>
             {{ page.ingredients | markdownify }}
         </section>
 
         <section class="instructions">
-            <h2>Preparation</h2>
+            <h2 class="ruled-heading">Preparation</h2>
             {{ page.instructions | markdownify }}
         </section>
-
-        {% if page.notes %}
-        <section class="recipe-notes">
-            <h2>Recipe Notes</h2>
-            {{ page.notes | markdownify }}
-        </section>
-        {% endif %}
     </div>
+
+    {% if page.notes %}
+    <section class="recipe-notes">
+        <h2 class="ruled-heading">Notes</h2>
+        {{ page.notes | markdownify }}
+    </section>
+    {% endif %}
 </article>

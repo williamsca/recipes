@@ -6,27 +6,28 @@ prep_time: 10 minutes
 cook_time: 25 minutes
 servings: 5
 category: Breakfast
+icon: pancakes
 
 ingredients: |
-  **Blueberry Sauce**
-  - 1 1/2 tablespoons lemon juice
-  - 1 1/2 teaspoons cornstarch
+  ### Blueberry Sauce
+  - 1 1/2 tbsp lemon juice
+  - 1 1/2 tsp cornstarch
   - 2 cups fresh or frozen blueberries or mixed berries
-  - 2-3 tablespoons granulated sugar
-  - 2 tablespoons water
+  - 2-3 tbsp granulated sugar
+  - 2 tbsp water
 
-  **Pancakes**
+  ### Pancakes
   - 1 1/4 cups all-purpose flour
-  - 3 tablespoons granulated sugar
-  - 2 teaspoons baking powder
-  - 1/2 teaspoon baking soda
-  - 1/4 teaspoon salt
+  - 3 tbsp granulated sugar
+  - 2 tsp baking powder
+  - 1/2 tsp baking soda
+  - 1/4 tsp salt
   - 1 cup ricotta cheese
   - 1 large egg
   - 2 large egg whites
   - 1/2 cup lemon juice
-  - 2 teaspoons grated lemon zest
-  - 1 tablespoon canola oil
+  - 2 tsp grated lemon zest
+  - 1 tbsp canola oil
 
 instructions: |
   1. In a small bowl, combine lemon juice and cornstarch and set aside. 

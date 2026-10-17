@@ -5,6 +5,7 @@ prep_time: 15 minutes
 cook_time: 25 minutes
 servings: 4
 category: Dinner
+icon: plate
 protein: vegetarian
 temperature: 400°F
 source: The Modern Proper

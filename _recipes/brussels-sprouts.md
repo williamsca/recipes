@@ -6,11 +6,12 @@ prep_time: 10 minutes
 cook_time: 45 minutes
 servings: 8
 category: Dinner
+icon: skillet
 protein: vegetarian
 
 ingredients: |
-  - 2 pounds brussels sprouts, bottoms trimmed only very slightly
-  - 4 tablespoons olive oil
+  - 2 lb brussels sprouts, bottoms trimmed only very slightly
+  - 4 tbsp olive oil
   - Salt and freshly ground black pepper
   - 1 lemon
 

@@ -5,17 +5,18 @@ prep_time: 10 minutes
 cook_time: 40 minutes
 servings: 6
 category: Dinner
+icon: skillet
 protein: sausage
 temperature: 
 source: The Modern Proper
 
 ingredients: |
-  - 16 ounces baby red potatoes, halved
-  - 3 tablespoons extra-virgin olive oil, plus more as needed
+  - 16 oz baby red potatoes, halved
+  - 3 tbsp extra-virgin olive oil, plus more as needed
   - Kosher salt, to taste
   - Freshly cracked black pepper, to taste
-  - 1 ½ teaspoons dried thyme
-  - 4 links fully cooked Italian chicken sausage (12 ounces), ½-inch sliced
+  - 1 ½ tsp dried thyme
+  - 4 links fully cooked Italian chicken sausage (12 oz), ½-inch sliced
   - ½ yellow onion, thinly sliced
   - 3 garlic cloves, minced
   - 1 bunch curly kale, ribs removed and roughly chopped

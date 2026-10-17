@@ -7,6 +7,7 @@ cook_time: 8 hours
 servings: 8
 source: The Modern Proper
 category: Dinner
+icon: kettle
 protein: beef
 
 ingredients: |
@@ -26,7 +27,7 @@ ingredients: |
   * 2 tsp cumin
   * 1 tsp cayenne (optional)
   * 2 bay leaves
-  * 2 Tbsp sugar
+  * 2 tbsp sugar
   * salt and pepper
   * water (if using dutch oven)
   * For garnish: cilantro, green onions, sour cream, grated cheese, avocado, corn bread, tortilla chips

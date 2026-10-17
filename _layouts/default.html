@@ -5,32 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="baseurl" content="{{ site.baseurl }}">
+    <meta name="theme-color" content="#F5EDDA">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&family=UnifrakturMaguntia&display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 </head>
 
 <body>
+    <div class="diamond-band" aria-hidden="true"></div>
 
-    <header class="site-header">
-        
-        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <div class="search-container" style="position: relative;">
-            <input type="text" id="search-input" placeholder="search recipes..." class="search-input">
-            <!-- <button type="button" class="search-button">
-                <span class="search-icon">🔍</span>
-            </button> -->
+    <header class="site-header{% if page.url == "/" %} is-home{% endif %}">
+        {% unless page.url == "/" %}<a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>{% endunless %}
+        <nav class="site-nav" aria-label="Categories">
+            {% for cat in site.data.categories %}
+            {% assign cat_url = '/categories/' | append: cat.slug | relative_url %}
+            <a href="{{ cat_url }}"{% if page.category == cat.name %} aria-current="page"{% endif %}>{{ cat.name | downcase }}</a>
+            {% endfor %}
+        </nav>
+        <div class="search-container">
+            <label class="search-box">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 L21 21"/></svg>
+                <span class="visually-hidden">Search recipes</span>
+                <input type="search" id="search-input" placeholder="Search recipes" autocomplete="off">
+            </label>
         </div>
     </header>
 
-    <main>
+    <main class="page">
         {{ content }}
     </main>
 
     <footer class="site-footer">
-        <p> <nav class="footer-nav">
-            <a href="{{ '/about' | relative_url }}" class="nav-link">about</a>
-        </nav> </p> <!-- Made with love for Valentine's Day -->
+        {% include herringbone.html %}
+        <nav class="footer-nav">
+            <a href="{{ '/' | relative_url }}">contents</a>
+            <a href="{{ '/about' | relative_url }}">letters</a>
+        </nav> <!-- Made with love for Valentine's Day -->
     </footer>
 </body>
 

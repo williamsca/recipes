@@ -5,27 +5,28 @@ prep_time: 20 minutes
 cook_time: 2 hours 25 minutes
 servings: 12
 category: Soup
+icon: kettle
 temperature: 
 source: The Modern Proper
 protein: beef
 
 ingredients: |
-  - 1 (3 pound) chuck roast, fat trimmed, cut into 2-inch pieces
-  - 2 teaspoons kosher salt, plus more for serving
-  - 1 teaspoon freshly cracked black pepper, plus more for serving
+  - 1 (3 lb) chuck roast, fat trimmed, cut into 2-inch pieces
+  - 2 tsp kosher salt, plus more for serving
+  - 1 tsp freshly cracked black pepper, plus more for serving
   - ¼ cup AP flour, Gluten Free flour or cornstarch
   - ¼ cup extra-virgin olive oil
   - 1 large onion, diced
   - 4 celery ribs, diced
   - 7 large carrots, 4 diced and 3 cut into 1½-inch pieces
   - 5 garlic cloves, minced
-  - 2 tablespoons tomato paste
+  - 2 tbsp tomato paste
   - 2 bay leaves
   - 2 sprigs fresh thyme
   - 8 cups beef stock
-  - 2 teaspoons beef bouillon
+  - 2 tsp beef bouillon
   - 4 small yukon gold potatoes, quartered or 2 russet potatoes, peeled and cut in 1-inch pieces
-  - ½ pound green beans, trimmed, cut into 2-inch pieces
+  - ½ lb green beans, trimmed, cut into 2-inch pieces
   - ¼ cup finely chopped flat leaf parsley, for serving
   - Crusty bread, for serving
 

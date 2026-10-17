@@ -6,12 +6,13 @@ prep_time: 15 minutes
 cook_time: 30 minutes
 servings: 6-8
 category: Drinks
+icon: drink
 source: Rosie Schaap
 
 ingredients: |
   - 2 large oranges
-  - 4¼ cups/1 liter red wine
-  - 1¼ cups/10 ounces brandy
+  - 4¼ cups/1 l red wine
+  - 1¼ cups/10 oz brandy
   - ½ cup dark brown sugar
   - 2 cinnamon sticks
   - 6 whole cloves

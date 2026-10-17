@@ -7,6 +7,7 @@ layout: null
     "title": {{ recipe.title | jsonify}},
     "category": {{ recipe.category | jsonify}},
     "ingredients": {{ recipe.ingredients | jsonify}},
+    "icon": {{ '/assets/icons/' | append: recipe.icon | append: '.svg' | relative_url | jsonify }},
     "url": {{ recipe.url | relative_url | jsonify}}
     }{% unless forloop.last %},{% endunless %}
 {% endfor %}

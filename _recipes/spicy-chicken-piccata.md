@@ -2,19 +2,20 @@
 layout: recipe
 title: Spicy Chicken Piccata
 category: Dinner
+icon: skillet
 servings: 2
 prep_time: 15 minutes
 cook_time: 15 minutes
 protein: chicken
 source: Alison Roman
 ingredients: |
-  - 2 large boneless, skinless chicken breasts (about 1-1 1/4 pounds)
+  - 2 large boneless, skinless chicken breasts (about 1-1 1/4 lb)
   - Kosher salt, freshly ground black pepper
   - 5 garlic cloves
-  - 2 tablespoons neutral oil, such as grapeseed or canola, plus more as needed
-  - 3 tablespoons unsalted butter, divided
-  - 2 tablespoons capers, drained
-  - 1/2 teaspoon crushed red pepper flakes, plus more to taste
+  - 2 tbsp neutral oil, such as grapeseed or canola, plus more as needed
+  - 3 tbsp unsalted butter, divided
+  - 2 tbsp capers, drained
+  - 1/2 tsp crushed red pepper flakes, plus more to taste
   - 1 lemon, very thinly sliced, seeds removed
   - 1 cup dry white wine, such as pinot grigio
   - 1/2 cup parsley, tender leaves and stems, coarsely chopped or torn

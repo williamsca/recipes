@@ -5,26 +5,27 @@ prep_time: 15 minutes
 cook_time: 15 minutes
 servings: 4
 category: Soup
+icon: kettle
 temperature: 
 source: The Modern Proper
-protein: Chicken
+protein: chicken
 
 ingredients: |
-  **Scallion Chili Sesame Oil**
+  ### Scallion Chili Sesame Oil
   - ¼ cup toasted sesame oil
-  - 1 tablespoon chili paste, we like sambal oelek
+  - 1 tbsp chili paste, we like sambal oelek
   - 4 scallions, white and green parts chopped
   
-  **Ramen**
-  - 1 tablespoon toasted sesame oil
+  ### Ramen
+  - 1 tbsp toasted sesame oil
   - 4 garlic cloves, minced
-  - 2 tablespoons minced peeled fresh ginger
+  - 2 tbsp minced peeled fresh ginger
   - 8 cups water plus better than bullion
-  - 3 tablespoons low sodium soy sauce
+  - 3 tbsp low sodium soy sauce
   - 4 scallions, white and green parts, chopped
   - 1.5 cups sliced cooked chicken
-  - ½ teaspoon sea salt
-  - 4 (3 ounce) packs ramen noodles (flavor packet discarded)
+  - ½ tsp sea salt
+  - 4 (3 oz) packs ramen noodles (flavor packet discarded)
   - 4 6-minute eggs, halved
   - Sesame seeds, optional
 

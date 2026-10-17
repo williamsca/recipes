@@ -6,11 +6,12 @@ prep_time: 5 minutes
 cook_time: 20 minutes
 servings: 6-8
 category: Breakfast
+icon: skillet
 
 ingredients: |
-  - 1 pound bulk pork breakfast sausage
+  - 1 lb bulk pork breakfast sausage
   - ¼ cup all-purpose flour
-  - 1 teaspoon freshly ground black pepper, or to taste
+  - 1 tsp freshly ground black pepper, or to taste
   - 2½ cups whole milk
   - Salt to taste
   - Ground sage to taste (optional)

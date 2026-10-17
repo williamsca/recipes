@@ -2,6 +2,7 @@
 layout: recipe
 title: Crispy Cutlets with Fennel Salad
 category: Dinner
+icon: plate
 servings: 2
 prep_time: 20 minutes
 cook_time: 10 minutes
@@ -11,9 +12,9 @@ ingredients: |
   - 2 cups panko bread crumbs
   - Kosher salt and freshly ground black pepper
   - 1 large egg, beaten to blend
-  - 1 8-10 oz. boneless, skinless chicken breast or pork chop
+  - 1 8-10 oz boneless, skinless chicken breast or pork chop
   - 1 shallot, thinly sliced
-  - 2 tablespoons fresh lemon juice, plus 1 quartered lemon for serving
+  - 2 tbsp fresh lemon juice, plus 1 quartered lemon for serving
   - 1 fennel bulb or 4 stalks celery, thinly sliced
   - 1 cup mixed herbs, such as parsley, chives and dill, coarsely chopped (or just use fennel fronds)
   - ¼ cup canola oil, plus more as needed

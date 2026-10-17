@@ -1,126 +1,62 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  One list per category. Dinner and Lunch get protein filter buttons;
+  each row shows the recipe's description, falling back to its `menu` blurb.
+{%- endcomment -%}
+{% assign category_recipes = site.recipes | where: "category", page.category %}
+{% assign show_filters = false %}
+{% if page.category == "Dinner" or page.category == "Lunch" %}{% assign show_filters = true %}{% endif %}
 
-<div class="menu-header">
-    <h2>{{ page.category }}</h2>
-    {% assign current_path = page.url | split: '/' | last %}
-    <a href="{{ 'categories/' | append: page.category | downcase | append: '-menu' | relative_url }}" class="view-toggle">Menu View</a>
-</div>
-
-<table id="recipe-table" class="recipe-table">
-    <thead>
-        <tr>
-            <th class="sort-header">Recipe</th>
-            {% if page.category == "Dinner" or page.category == "Lunch" %}
-            <th class="sort-header">Protein</th>
-            {% endif %}
-            {% if page.category == "Dessert" %}
-            <th class="sort-header">Flavor</th>
-            {% endif %}
-        </tr>
-    </thead>
-    <tbody>
-        {% assign category_recipes = site.recipes | where: "category", page.category %}
-        {% for recipe in category_recipes %}
-        <tr>
-            <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.title }}</a></td>
-            {% if page.category == "Dinner" or page.category == "Lunch" %}
-            <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.protein }}</a></td>
-            {% endif %}
-            {% if page.category == "Dessert" %}
-            <td><a href="{{ recipe.url | relative_url }}" class="table-cell-link">{{ recipe.flavor }}</a></td>
-            {% endif %}
-        </tr>
+<header class="list-header">
+    <h1>{{ page.category }}</h1>
+    {% include herringbone.html %}
+    {% if show_filters %}
+    <div class="filters" role="group" aria-label="Filter by protein">
+        <button type="button" data-filter="all" aria-pressed="true">all {{ category_recipes.size }}</button>
+        {% for group in site.data.protein_groups %}
+        {% assign group_count = 0 %}
+        {% for recipe in category_recipes %}{% if group.proteins contains recipe.protein %}{% assign group_count = group_count | plus: 1 %}{% endif %}{% endfor %}
+        {% if group_count > 0 %}
+        <button type="button" data-filter="{{ group.slug }}" aria-pressed="false">{{ group.name }}</button>
+        {% endif %}
         {% endfor %}
-    </tbody>
-</table>
+    </div>
+    {% endif %}
+</header>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+<ul class="recipe-list">
+    {% for recipe in category_recipes %}
+    {% assign group_slug = "" %}
+    {% for group in site.data.protein_groups %}{% if group.proteins contains recipe.protein %}{% assign group_slug = group.slug %}{% endif %}{% endfor %}
+    <li data-group="{{ group_slug }}">
+        <a href="{{ recipe.url | relative_url }}">
+            {% include recipe-icon.html recipe=recipe size=52 %}
+            <div class="recipe-list-text">
+                <span class="recipe-list-title">{{ recipe.title }}</span>
+                {% if recipe.protein %}<span class="recipe-list-tag">{{ recipe.protein }}</span>
+                {% elsif recipe.flavor %}<span class="recipe-list-tag">{{ recipe.flavor }}</span>{% endif %}
+                {% assign blurb = recipe.description | default: recipe.menu %}
+                {% if blurb %}<span class="recipe-list-blurb">{{ blurb | markdownify | strip_html | strip }}</span>{% endif %}
+            </div>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
 
-<style>
-    .recipe-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 25px 0;
-    }
-
-    .recipe-table th {
-        padding: 12px 15px;
-        border-bottom: 2px solid var(--color-border);
-        text-align: left;
-    }
-
-    .recipe-table td {
-        padding: 12px 15px;
-    }
-
-    .recipe-table tbody tr {
-        border-bottom: 1px solid var(--color-bg-secondary);
-    }
-
-    .recipe-table tbody tr:hover {
-        background-color: var(--color-bg-secondary);
-    }
-
-    .sort-header {
-        cursor: pointer;
-        position: relative;
-        padding-right: 20px !important;
-    }
-
-    .sort-header:hover {
-        background-color: var(--color-bg-secondary);
-    }
-
-    .sort-header::after,
-    .sort-header::before {
-        content: '';
-        position: absolute;
-        right: 8px;
-        width: 0;
-        height: 0;
-        border-left: 4px solid transparent;
-        border-right: 4px solid transparent;
-        opacity: 0.3;
-    }
-
-    .sort-header::before {
-        bottom: 13px;
-        border-bottom: 4px solid var(--color-text);
-    }
-
-    .sort-header::after {
-        top: 13px;
-        border-top: 4px solid var(--color-text);
-    }
-
-    th.sort-header.sort-asc::before,
-    th.sort-header[aria-sort="ascending"]::before {
-        opacity: 1 !important;
-    }
-
-    th.sort-header.sort-desc::after,
-    th.sort-header[aria-sort="descending"]::after {
-        opacity: 1 !important;
-    }
-
-    th.sort-header::before,
-    th.sort-header::after {
-        transition: opacity 0.2s ease;
-    }
-
-    .table-cell-link {
-        display: block;
-        width: 100%;
-        height: 100%;
-        text-decoration: none;
-        color: inherit;
-    }
-</style>
-
+{% if show_filters %}
 <script>
-
-    // Initialize tablesort
-    new Tablesort(document.getElementById('recipe-table'));
+    document.querySelectorAll('.filters button').forEach(function (button) {
+        button.addEventListener('click', function () {
+            var filter = button.dataset.filter;
+            document.querySelectorAll('.filters button').forEach(function (b) {
+                b.setAttribute('aria-pressed', b === button ? 'true' : 'false');
+            });
+            document.querySelectorAll('.recipe-list li').forEach(function (row) {
+                row.hidden = filter !== 'all' && row.dataset.group !== filter;
+            });
+        });
+    });
 </script>
+{% endif %}

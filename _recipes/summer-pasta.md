@@ -6,20 +6,21 @@ prep_time: 15 minutes
 cook_time: 15 minutes
 servings: 4-6
 category: Dinner
+icon: pasta
 protein: vegetarian
 
 ingredients: |
   - Extra-virgin olive oil
   - 1 small onion, finely diced
-  - 2 pounds zucchini, sliced into ¼-inch-thick pieces
+  - 2 lb zucchini, sliced into ¼-inch-thick pieces
   - Salt and pepper
   - 2 garlic cloves, minced
-  - 1 ounce basil, about 2 cups loose leaves
-  - 1 pound ziti or other dry pasta
-  - 8 ounces ricotta, about 1 cup
+  - 1 oz basil, about 2 cups loose leaves
+  - 1 lb ziti or other dry pasta
+  - 8 oz ricotta, about 1 cup
   - Pinch of crushed red pepper
   - Zest of 1 lemon
-  - 2 ounces grated Parmesan or pecorino, about 1 cup, plus more for serving
+  - 2 oz grated Parmesan or pecorino, about 1 cup, plus more for serving
 
 instructions: |
   1. Bring a pot of water to boil. In a large skillet over medium-high heat, cook onions in 3 tablespoons olive oil until softened, 5-8 minutes. Add zucchini, season with salt and pepper, and cook until soft, about 10 minutes.

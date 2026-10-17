@@ -53,8 +53,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         searchResults.innerHTML = results.map(result => `
             <a href="${result.url}" class="search-result-item">
-                <div class="search-result-title">${result.title}</div>
-                <div class="search-result-category">${result.category}</div>
+                <img class="spot" src="${result.icon}" alt="">
+                <div>
+                    <div class="search-result-title">${result.title}</div>
+                    <div class="search-result-category">${result.category.toLowerCase()}</div>
+                </div>
             </a>
         `).join('');
 

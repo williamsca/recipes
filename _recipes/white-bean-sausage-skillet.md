@@ -5,21 +5,22 @@ prep_time: 10 minutes
 cook_time: 20 minutes
 servings: 4
 category: Dinner
+icon: skillet
 protein: sausage
 temperature: 
 source: The Modern Proper
 
 ingredients: |
-  - 2 tablespoons olive oil
-  - 12-14 ounces smoked or Italian sausage links (chicken or pork), cooked, 1/2-inch sliced
+  - 2 tbsp olive oil
+  - 12-14 oz smoked or Italian sausage links (chicken or pork), cooked, 1/2-inch sliced
   - 3 garlic cloves, minced
-  - 2 (15-ounce) cans white beans, like great northern, butter beans or cannellini, rinsed and drained
+  - 2 (15-oz) cans white beans, like great northern, butter beans or cannellini, rinsed and drained
   - 1 ½ cups chicken stock
-  - ½ teaspoon kosher salt
-  - ¼ teaspoon freshly cracked black pepper
-  - 1 teaspoon minced fresh thyme leaves
+  - ½ tsp kosher salt
+  - ¼ tsp freshly cracked black pepper
+  - 1 tsp minced fresh thyme leaves
   - ½ bunch curly kale, stems removed, leaves torn into bite size pieces, about 3 cups packed
-  - 1 tablespoon lemon juice
+  - 1 tbsp lemon juice
   - ½ cup parmesan, plus extra for serving
   - red pepper flakes, optional
 

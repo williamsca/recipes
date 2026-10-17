@@ -6,24 +6,25 @@ prep_time: 15 minutes
 cook_time: 10 minutes
 servings: 4
 category: Dinner
+icon: bowl
 protein: salmon
 
 ingredients: |
-  **For the Sriracha Mayo**
+  ### For the Sriracha Mayo
   - ⅓ cup mayonnaise
-  - 1 teaspoon sriracha, plus more to taste
-  - 2 teaspoons rice vinegar
+  - 1 tsp sriracha, plus more to taste
+  - 2 tsp rice vinegar
 
-  **For the Salmon**
-  - 1 tablespoon toasted sesame oil
+  ### For the Salmon
+  - 1 tbsp toasted sesame oil
   - ⅔ cup soy sauce
   - ½ cup rice vinegar
   - ¼ cup honey
   - 6 garlic cloves, minced
-  - 1 tablespoon minced fresh ginger
-  - 1 (1-pound) salmon fillet, cut into 4 pieces
+  - 1 tbsp minced fresh ginger
+  - 1 (1-lb) salmon fillet, cut into 4 pieces
 
-  **For Serving**
+  ### For Serving
   - 4 cups cooked brown rice
   - 1 English cucumber, sliced
   - 1 avocado, pitted and sliced

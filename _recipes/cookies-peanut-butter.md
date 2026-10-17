@@ -6,6 +6,7 @@ cook_time: 8 minutes per batch
 temperature: 375°F
 servings: 6 dozen
 category: Dessert
+icon: cookie
 source: Jamie Williams
 flavor: peanut butter
 
@@ -16,9 +17,9 @@ ingredients: |
   - 1 cup firmly packed brown sugar
   - 2 large eggs
   - 2½ cups all-purpose flour
-  - 2 teaspoons baking soda
-  - ¼ teaspoon salt
-  - 1 teaspoon vanilla extract
+  - 2 tsp baking soda
+  - ¼ tsp salt
+  - 1 tsp vanilla extract
   - additional sugar for fork-dipping
 
 instructions: |

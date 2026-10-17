@@ -2,6 +2,7 @@
 layout: recipe
 title: Strawberry Shortcake Cobbler
 category: Dessert
+icon: cobbler
 flavor: strawberry
 servings: 6
 prep_time: 20 minutes
@@ -10,23 +11,23 @@ description: We loved serving this cobbler to our friends at a picnic at Pen Par
 temperature: 350°F
 source: Alison Roman
 ingredients: |
-  **Shortcakes**
-  - 1¼ cups (181 grams) all-purpose flour, plus more for the work surface
-  - ½ cup (78 grams) coarse yellow cornmeal
-  - 2 tablespoons (27.5 grams) light brown sugar
-  - 2 tablespoons (25 grams) granulated sugar
-  - 1 tablespoon (12 grams) baking powder
-  - ¾ teaspoon (2 grams) kosher salt
-  - ½ cup (113 grams) unsalted butter, cut into 1-inch pieces, at room temperature
-  - ½ cup (113.5 grams) heavy cream
+  ### Shortcakes
+  - 1¼ cups (181 g) all-purpose flour, plus more for the work surface
+  - ½ cup (78 g) coarse yellow cornmeal
+  - 2 tbsp (27.5 g) light brown sugar
+  - 2 tbsp (25 g) granulated sugar
+  - 1 tbsp (12 g) baking powder
+  - ¾ tsp (2 g) kosher salt
+  - ½ cup (113 g) unsalted butter, cut into 1-inch pieces, at room temperature
+  - ½ cup (113.5 g) heavy cream
 
-  **Filling**
-  - 5 cups (750 grams) strawberries (about 2 quarts), hulled and halved
-  - ½ cup (100 grams) granulated sugar
-  - 2 tablespoons (14 grams) cornstarch
-  - 1 tablespoon (14.5 grams) fresh lime or lemon juice
-  - 2 tablespoons (14 grams) heavy cream
-  - 2 tablespoons (27.5 grams) light brown sugar
+  ### Filling
+  - 5 cups (750 g) strawberries (about 2 quarts), hulled and halved
+  - ½ cup (100 g) granulated sugar
+  - 2 tbsp (14 g) cornstarch
+  - 1 tbsp (14.5 g) fresh lime or lemon juice
+  - 2 tbsp (14 g) heavy cream
+  - 2 tbsp (27.5 g) light brown sugar
 
 instructions: |
   1. Preheat the oven to 350°F.

@@ -4,6 +4,7 @@ title: Tuna Salad
 prep_time: 10 minutes
 servings: 3-4
 category: Lunch
+icon: salad
 source: 
 protein: tuna
 

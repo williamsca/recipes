@@ -5,21 +5,22 @@ prep_time: 30 minutes
 servings: 12
 source: Summer Osborne
 category: Dessert
+icon: cake
 flavor: coffee
 menu: A luxurious Italian classic layering espresso-soaked ladyfingers with rich mascarpone cream, finished with a dusting of cocoa and shaved chocolate.
 
 ingredients: |
   - 2 1/2 cups strong black coffee, room temperature
-  - 1 1/2 tablespoons instant espresso powder
-  - 9 tablespoons dark rum
+  - 1 1/2 tbsp instant espresso powder
+  - 9 tbsp dark rum
   - 6 large egg yolks
   - 2/3 cup sugar
-  - 1/4 teaspoon salt
-  - 1 1/2 pounds (680 grams) mascarpone cheese, cold
+  - 1/4 tsp salt
+  - 1 1/2 lb (680 g) mascarpone cheese, cold
   - 1/3 cup cream, for adding to yolks
   - 3/4 cup cold heavy cream, for whipping
-  - 14 ounces (400 grams) ladyfingers
-  - 3 1/2 tablespoons cocoa powder, preferably Dutch-processed
+  - 14 oz (400 g) ladyfingers
+  - 3 1/2 tbsp cocoa powder, preferably Dutch-processed
   - 1/4 cup semisweet or bittersweet chocolate, grated
 
 instructions: |

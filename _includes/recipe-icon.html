@@ -1,0 +1,10 @@
+{%- comment -%}
+  Spot illustration for a recipe. Pass recipe=..., or name=... for a specific icon.
+  Recipes without an `icon:` fall back to their category's icon from _data/categories.yml.
+{%- endcomment -%}
+{%- assign icon_name = include.name | default: include.recipe.icon -%}
+{%- unless icon_name -%}
+  {%- assign cat = site.data.categories | where: "name", include.recipe.category | first -%}
+  {%- assign icon_name = cat.icon | default: "plate" -%}
+{%- endunless -%}
+<img class="spot {{ include.class }}" src="{{ '/assets/icons/' | append: icon_name | append: '.svg' | relative_url }}" alt="" width="{{ include.size | default: 64 }}" height="{{ include.size | default: 64 }}">

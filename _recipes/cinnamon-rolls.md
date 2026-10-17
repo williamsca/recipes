@@ -6,29 +6,30 @@ prep_time: 2 hours
 cook_time: 20 minutes
 servings: 9
 category: Breakfast
+icon: bread
 source: Kristi Terasa
 menu: Ambitious Kitchen's "The Best Cinnamon Rolls You'll Ever Eat" served with fruit, scrambled eggs, and bacon.
 
 ingredients: |
-  **Dough**
+  ### Dough
   - 3/4 cup warm milk
-  - 2 1/4 teaspoons quick rise yeast
+  - 2 1/4 tsp quick rise yeast
   - 1/4 cup granulated sugar
   - 1 egg plus 1 egg yolk at room temperature
   - 1/4 cup salted butter, melted
-  - 3 cups (360g) bread flour, plus more for dusting
+  - 3 cups (360 g) bread flour, plus more for dusting
   - 3/4 tsp salt
 
-  **Filling**
+  ### Filling
   - 2/3 cup dark brown sugar
-  - 1 1/2 tablespoons ground cinnamon
+  - 1 1/2 tbsp ground cinnamon
   - 1/4 cup butter, softened
 
-  **Cream Cheese Frosting (doubled from original)**
-  - 8 oz (112g) cream cheese, softened
-  - 6 tablespoons salted butter, softened
+  ### Cream Cheese Frosting (doubled from original)
+  - 8 oz (112 g) cream cheese, softened
+  - 6 tbsp salted butter, softened
   - 1.5 cup powdered sugar
-  - 1 teaspoon vanilla extract
+  - 1 tsp vanilla extract
 
 instructions: |
   1. Warm milk to 110°F by microwaving for 40 seconds. Transfer to the bowl of an electric mixer and sprinkle yeast on top. Add in sugar, egg, yolk, and melted butter. Mix until well combined. Stir in flour and salt with a wooden spoon until a dough forms.

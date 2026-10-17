@@ -7,29 +7,30 @@ cook_time: 10 minutes
 temperature: 375°F
 servings: 25-30
 category: Fika
+icon: fika
 
 ingredients: |
-  **Dough**
-  - 30g yeast
-  - 250g milk
-  - 570g flour
-  - 3g salt
-  - 5g ground cardamom
-  - 90g powdered sugar
-  - 55g egg
-  - 110g butter, room temperature
+  ### Dough
+  - 30 g yeast
+  - 250 g milk
+  - 570 g flour
+  - 3 g salt
+  - 5 g ground cardamom
+  - 90 g powdered sugar
+  - 55 g egg
+  - 110 g butter, room temperature
   - 1 egg, for brushing
   - pearl sugar, for sprinkling
 
-  **Cinnamon and Almond Filling**
-  - 200g almond paste
-  - 10g vanilla sugar
-  - 30g cinnamon
-  - 150g butter, room temperature
+  ### Cinnamon and Almond Filling
+  - 200 g almond paste
+  - 10 g vanilla sugar
+  - 30 g cinnamon
+  - 150 g butter, room temperature
 
-  **Sugar Syrup**
-  - 150g water
-  - 95g powdered sugar
+  ### Sugar Syrup
+  - 150 g water
+  - 95 g powdered sugar
 
 instructions: |
   1. Toss the yeast in the bowl of your food processor. Heat the milk to lukewarm, beat the yeast and mix around.

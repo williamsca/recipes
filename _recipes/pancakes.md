@@ -6,16 +6,17 @@ prep_time: 15 minutes
 cook_time: 4 minutes
 servings: 4
 category: Breakfast
+icon: pancakes
 
 ingredients: |
   - 2 cups all-purpose flour
-  - 2 teaspoons baking powder
-  - 1 teaspoon baking soda
-  - ½ teaspoon salt
-  - 3 tablespoons sugar
+  - 2 tsp baking powder
+  - 1 tsp baking soda
+  - ½ tsp salt
+  - 3 tbsp sugar
   - 2 large eggs, lightly beaten
   - 3 cups buttermilk
-  - 4 tablespoons unsalted butter, melted, plus ½ teaspoon for griddle
+  - 4 tbsp unsalted butter, melted, plus ½ tsp for griddle
 
 instructions: |
   1. Preheat griddle to 375°F.

@@ -8,10 +8,11 @@ temperature: 165°F
 servings: 8
 source: The Modern Proper
 category: Dinner
+icon: plate
 protein: beef
 
 ingredients: |
-  **Meatballs**
+  ### Meatballs
   - 1 lb ground beef
   - 1 lb ground pork
   - 1/4 cup flat leaf parsley, minced
@@ -25,7 +26,7 @@ ingredients: |
   - salt
   - pepper
 
-  **Cream Gravy**
+  ### Cream Gravy
   - 1/2 cup butter
   - 1/2 cup flour
   - 4 cups beef broth
